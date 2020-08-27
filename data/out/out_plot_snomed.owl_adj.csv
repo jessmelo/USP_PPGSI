@@ -1,0 +1,612 @@
+digraph G {
+	pad=3 rankdir=RL size="8,4"
+	node [fillcolor=lightgray shape=box style="rounded,filled"]
+	"obo.OGMS_0000016"
+	"obo.BFO_0000015"
+	"ogms.SCTO_116676008"
+	"obo.OGMS_0000080"
+	"oboInOwl.Definition"
+	"ogms.SCTO_123037004"
+	"obo.OGMS_0000099"
+	"ogms.SCTO_272141005"
+	"obo.BFO_0000144"
+	"obo.OGMS_0000035"
+	"obo.OGMS_0000081"
+	"ogms.SCTO_123005000"
+	"snomed.SCTO_415240008"
+	"ogms.SCTO_370129005"
+	"snomed.SCTO_410536001"
+	"obo.BFO_0000035"
+	"ogms.SCTO_370132008"
+	"obo.OGMS_0000046"
+	"obo.OGMS_0000087"
+	"obo.OGMS_0000033"
+	"ogms.SCTO_123038009"
+	"ogms.SCTO_276339004"
+	"obo.BFO_0000029"
+	"snomed.SCTO_410510008"
+	"obo.BFO_0000146"
+	"ogms.SCTO_00000002"
+	"obo.OBI_0000011"
+	"snomed.SCTO_278444000"
+	"ogms.SCTO_260507000"
+	"ogms.SCTO_419066007"
+	"obo.OGMS_0000050"
+	"ogms.SCTO_418775008"
+	"snomed.SCTO_129379006"
+	"snomed.SCTO_129380009"
+	"ogms.SCTO_127489000"
+	"snomed.SCTO_115268005"
+	"ogms.SCTO_260870009"
+	"obo.OGMS_0000085"
+	"ogms.SCTO_00000001"
+	"obo.OGMS_0000024"
+	"snomed.SCTO_410512000"
+	"ogms.SCTO_405814001"
+	"obo.IAO_0000033"
+	"snomed.SCTO_419988009"
+	"snomed.SCTO_129407005"
+	"obo.OGMS_0000025"
+	"snomed.SCTO_413529001"
+	"snomed.SCTO_123035007"
+	"oboInOwl.DbXref"
+	"ogms.SCTO_442083009"
+	"snomed.SCTO_257937003"
+	"obo.BFO_0000002"
+	"snomed.SCTO_36692007"
+	"obo.OGMS_0000066"
+	"obo.BFO_0000019"
+	"obo.OGMS_0000083"
+	"obo.OGMS_0000084"
+	"snomed.SCTO_272512009"
+	"ogms.SCTO_66459002"
+	"obo.OGMS_0000079"
+	"ogms.SCTO_272396007"
+	"obo.BFO_0000142"
+	"obo.OGMS_0000037"
+	"obo.OGMS_0000078"
+	"ogms.SCTO_405813007"
+	"obo.OGMS_0000057"
+	"snomed.SCTO_422133006"
+	"obo.OGMS_0000031"
+	"obo.BFO_0000023"
+	"obo.OGMS_0000094"
+	"snomed.SCTO_430975009"
+	"ogms.SCTO_00000000"
+	"obo.BFO_0000001"
+	"ogms.SCTO_272126005"
+	"obo.OGMS_0000104"
+	"obo.BFO_0000147"
+	"obo.IAO_0000225"
+	"ogms.SCTO_370135005"
+	"ogms.SCTO_363714003"
+	"obo.OGMS_0000034"
+	"obo.OGMS_0000074"
+	"ogms.SCTO_411116001"
+	"snomed.SCTO_307120002"
+	"ogms.SCTO_49062001"
+	"obo.OGMS_0000098"
+	"obo.OGMS_0000019"
+	"obo.OGMS_0000086"
+	"ogms.SCTO_138875005"
+	"ogms.SCTO_284009009"
+	"obo.BFO_0000006"
+	"obo.BFO_0000182"
+	"snomed.SCTO_129348007"
+	"obo.OGMS_0000102"
+	"oboInOwl.SynonymType"
+	"snomed.SCTO_118598001"
+	"ogms.SCTO_363787002"
+	"obo.OGMS_0000100"
+	"snomed.SCTO_360220002"
+	"obo.OGMS_0000060"
+	"obo.OGMS_0000082"
+	"obo.OGMS_0000055"
+	"ogms.SCTO_71388002"
+	"obo.BFO_0000038"
+	"ogms.SCTO_282032007"
+	"ogms.SCTO_272424004"
+	"snomed.SCTO_272099008"
+	"obo.OGMS_0000106"
+	"obo.BFO_0000003"
+	"ogms.SCTO_288524001"
+	"obo.IAO_0000078"
+	"oboInOwl.Subset"
+	"ogms.SCTO_309825002"
+	"ogms.SCTO_272125009"
+	"ogms.SCTO_118956008"
+	"ogms.SCTO_263680009"
+	"ogms.SCTO_363675004"
+	"ogms.SCTO_103379005"
+	"ogms.SCTO_363710007"
+	"ogms.SCTO_280115004"
+	"obo.IAO_0000027"
+	"obo.OGMS_0000063"
+	"ogms.SCTO_424361007"
+	"snomed.SCTO_129264002"
+	"snomed.DTO:0001944"
+	"snomed.SCTO_360038009"
+	"obo.OGMS_0000023"
+	"snomed.SCTO_410513005"
+	"ogms.SCTO_363705008"
+	"obo.OGMS_0000028"
+	"obo.OGMS_0000061"
+	"ogms.SCTO_281586009"
+	"ogms.SCTO_118171006"
+	"ogms.SCTO_363713009"
+	"ogms.SCTO_42752001"
+	"snomed.SCTO_257544000"
+	"snomed.SCTO_419385000"
+	"obo.BFO_0000009"
+	"obo.OGMS_0000103"
+	"obo.BFO_0000145"
+	"obo.BFO_0000148"
+	"ogms.SCTO_246093002"
+	"obo.BFO_0000017"
+	"owl.Thing"
+	"snomed.SCTO_410514004"
+	"ogms.SCTO_363709002"
+	"ogms.SCTO_373873005"
+	"ogms.SCTO_260245000"
+	"snomed.SCTO_261665006"
+	"snomed.SCTO_363555003"
+	"obo.BFO_0000040"
+	"ogms.SCTO_105904009"
+	"obo.OGMS_0000091"
+	"obo.OGMS_0000090"
+	"obo.BFO_0000026"
+	"ogms.SCTO_272127001"
+	"obo.IAO_0000102"
+	"obo.BFO_0000011"
+	"ogms.SCTO_424226004"
+	"ogms.SCTO_246514001"
+	"snomed.SCTO_703763000"
+	"snomed.SCTO_394731006"
+	"obo.BFO_0000030"
+	"obo.IAO_0000030"
+	"ogms.SCTO_419891008"
+	"ogms.SCTO_246513007"
+	"snomed.SCTO_106229004"
+	"ogms.SCTO_272099008"
+	"obo.OGMS_0000015"
+	"ogms.SCTO_260686004"
+	"ogms.SCTO_106237007"
+	"ogms.SCTO_116686009"
+	"ogms.SCTO_363703001"
+	"ogms.SCTO_91723000"
+	"obo.OGMS_0000047"
+	"ogms.SCTO_255234002"
+	"ogms.SCTO_424876005"
+	"obo.OGMS_0000056"
+	"obo.OGMS_0000020"
+	"ogms.SCTO_303102005"
+	"obo.OGMS_0000095"
+	"obo.BFO_0000027"
+	"obo.BFO_0000018"
+	"obo.BFO_0000024"
+	"obo.OGMS_0000092"
+	"snomed.SCTO_410511007"
+	"ogms.SCTO_254291000"
+	"obo.BFO_0000028"
+	"obo.OGMS_0000101"
+	"obo.BFO_0000016"
+	"obo.BFO_0000034"
+	"ogms.SCTO_118168003"
+	"ogms.SCTO_405815000"
+	"ogms.SCTO_272379006"
+	"ogms.SCTO_410662002"
+	"obo.OGMS_0000059"
+	"obo.OGMS_0000093"
+	"snomed.SCTO_422096002"
+	"ogms.SCTO_49755003"
+	"ogms.SCTO_363699004"
+	"ogms.SCTO_370133003"
+	"snomed.SCTO_425362007"
+	"ogms.SCTO_370131001"
+	"obo.BFO_0000140"
+	"obo.BFO_0000141"
+	"obo.OGMS_0000077"
+	"ogms.SCTO_424244007"
+	"ogms.SCTO_425391005"
+	"obo.OGMS_0000088"
+	"ogms.SCTO_362981000"
+	"snomed.SCTO_129284003"
+	"snomed.SCTO_385660001"
+	"obo.BFO_0000004"
+	"obo.OGMS_0000040"
+	"obo.BFO_0000020"
+	"snomed.SCTO_288532009"
+	"snomed.SCTO_129371009"
+	"ogms.SCTO_405816004"
+	"obo.OGMS_0000064"
+	"ogms.SCTO_309795001"
+	"snomed.SCTO_129300006"
+	"ogms.SCTO_308489006"
+	"snomed.SCTO_260299005"
+	"ogms.SCTO_105590001"
+	"ogms.SCTO_277367001"
+	"ogms.SCTO_363698007"
+	"snomed.SCTO_360032005"
+	"obo.OGMS_0000073"
+	"snomed.SCTO_297289008"
+	"ogms.SCTO_182353008"
+	"snomed.SCTO_276214006"
+	"ogms.SCTO_24028007"
+	"ogms.SCTO_370130000"
+	"ogms.SCTO_258349007"
+	"ogms.SCTO_246112005"
+	"snomed.SCTO_410820007"
+	"snomed.SCTO_414753003"
+	"ogms.SCTO_272103003"
+	"ogms.SCTO_261424001"
+	"obo.BFO_0000008"
+	"snomed.SCTO_288529006"
+	"snomed.SCTO_308910008"
+	"ogms.SCTO_118169006"
+	"ogms.SCTO_223496003"
+	"ogms.SCTO_78621006"
+	"ogms.SCTO_281296001"
+	"snomed.SCTO_115670007"
+	"ogms.SCTO_246454002"
+	"snomed.SCTO_419652001"
+	"oboInOwl.Synonym"
+	"obo.OGMS_0000038"
+	"obo.OGMS_0000026"
+	"ogms.SCTO_255231005"
+	"snomed.SCTO_288531002"
+	"ogms.SCTO_370134009"
+	"ogms.SCTO_399455000"
+	"obo.OGMS_0000096"
+	"ogms.SCTO_7771000"
+	"ogms.SCTO_363701004"
+	"snomed.SCTO_129347002"
+	"ogms.SCTO_363700003"
+	"obo.BFO_0000031"
+	"ogms.SCTO_246061005"
+	"ogms.SCTO_264752007"
+	"ogms.SCTO_307142001"
+	"obo.OGMS_0000051"
+	"ogms.SCTO_410675002"
+	"obo.OGMS_0000022"
+	"obo.OGMS_0000105"
+	"obo.OGMS_0000065"
+	"obo.OGMS_0000045"
+	"snomed.SCTO_106239005"
+	"ogms.SCTO_47429007"
+	"obo.OGMS_0000017"
+	"ogms.SCTO_51440002"
+	"obo.OGMS_0000030"
+	"obo.OGMS_0000039"
+	"ogms.SCTO_410607006"
+	"ogms.SCTO_257958009"
+	"ogms.SCTO_129264002_2"
+	"obo.OGMS_0000029"
+	"snomed.DTO:0001943"
+	"snomed.SCTO_129325002"
+	"ogms.SCTO_288526004"
+	"ogms.SCTO_363704007"
+	"snomed.SCTO_106235004"
+	"obo.OGMS_0000097"
+	"obo.OGMS_0000014"
+	"ogms.SCTO_363702006"
+	"obo.OGMS_0000089"
+	"obo.OGMS_0000027"
+	"obo.OGMS_0000018"
+	"snomed.SCTO_257867005"
+	"ogms.SCTO_246456000"
+	"ogms.SCTO_263502005"
+	"ogms.SCTO_246075003"
+	"snomed.SCTO_698078002"
+	"ogms.SCTO_277302009"
+	"snomed.SCTO_21703008"
+	"ogms.SCTO_118170007"
+	"ogms.SCTO_272741003"
+	"snomed.SCTO_7389001"
+	"obo.IAO_0000409"
+	"ogms.SCTO_260787004"
+	"obo.OGMS_0000032"
+	"obo.BFO_0000001" -> "owl.Thing" [label="is-a"]
+	"obo.BFO_0000002" -> "obo.BFO_0000001" [label="is-a"]
+	"obo.BFO_0000003" -> "obo.BFO_0000001" [label="is-a"]
+	"obo.BFO_0000004" -> "obo.BFO_0000002" [label="is-a"]
+	"obo.BFO_0000006" -> "obo.BFO_0000141" [label="is-a"]
+	"obo.BFO_0000008" -> "obo.BFO_0000003" [label="is-a"]
+	"obo.BFO_0000015" -> "obo.BFO_0000003" [label="is-a"]
+	"obo.BFO_0000016" -> "obo.BFO_0000017" [label="is-a"]
+	"obo.BFO_0000017" -> "obo.BFO_0000020" [label="is-a"]
+	"obo.BFO_0000019" -> "obo.BFO_0000020" [label="is-a"]
+	"obo.BFO_0000020" -> "obo.BFO_0000002" [label="is-a"]
+	"obo.BFO_0000024" -> "obo.BFO_0000040" [label="is-a"]
+	"obo.BFO_0000029" -> "obo.BFO_0000141" [label="is-a"]
+	"obo.BFO_0000030" -> "obo.BFO_0000040" [label="is-a"]
+	"obo.BFO_0000031" -> "obo.BFO_0000002" [label="is-a"]
+	"obo.BFO_0000035" -> "obo.BFO_0000003" [label="is-a"]
+	"obo.BFO_0000040" -> "obo.BFO_0000004" [label="is-a"]
+	"obo.BFO_0000140" -> "obo.BFO_0000141" [label="is-a"]
+	"obo.BFO_0000141" -> "obo.BFO_0000004" [label="is-a"]
+	"obo.IAO_0000027" -> "obo.IAO_0000030" [label="is-a"]
+	"obo.IAO_0000030" -> "obo.BFO_0000031" [label="is-a"]
+	"obo.IAO_0000102" -> "obo.IAO_0000027" [label="is-a"]
+	"obo.OGMS_0000014" -> "obo.IAO_0000027" [label="is-a"]
+	"obo.OGMS_0000020" -> "obo.BFO_0000001" [label="is-a"]
+	"obo.OGMS_0000022" -> "obo.BFO_0000019" [label="is-a"]
+	"obo.OGMS_0000023" -> "obo.BFO_0000019" [label="is-a"]
+	"obo.OGMS_0000024" -> "obo.BFO_0000001" [label="is-a"]
+	"obo.OGMS_0000030" -> "obo.BFO_0000016" [label="is-a"]
+	"obo.OGMS_0000031" -> "obo.BFO_0000016" [label="is-a"]
+	"obo.OGMS_0000032" -> "obo.BFO_0000016" [label="is-a"]
+	"obo.OGMS_0000039" -> "obo.BFO_0000019" [label="is-a"]
+	"obo.OGMS_0000045" -> "obo.BFO_0000040" [label="is-a"]
+	"obo.OGMS_0000047" -> "obo.OGMS_0000045" [label="is-a"]
+	"obo.OGMS_0000060" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000061" -> "obo.OGMS_0000060" [label="is-a"]
+	"obo.OGMS_0000063" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000096" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000097" -> "obo.OGMS_0000096" [label="is-a"]
+	"ogms.SCTO_00000000" -> "obo.IAO_0000030" [label="is-a"]
+	"ogms.SCTO_106237007" -> "ogms.SCTO_138875005" [label="is-a"]
+	"ogms.SCTO_118956008" -> "ogms.SCTO_123037004" [label="is-a"]
+	"ogms.SCTO_123037004" -> "obo.BFO_0000024" [label="is-a"]
+	"ogms.SCTO_129264002_2" -> "obo.BFO_0000015" [label="is-a"]
+	"ogms.SCTO_138875005" -> "ogms.SCTO_00000000" [label="is-a"]
+	"ogms.SCTO_182353008" -> "ogms.SCTO_272424004" [label="is-a"]
+	"ogms.SCTO_24028007" -> "ogms.SCTO_182353008" [label="is-a"]
+	"ogms.SCTO_246061005" -> "ogms.SCTO_106237007" [label="is-a"]
+	"ogms.SCTO_258349007" -> "ogms.SCTO_264752007" [label="is-a"]
+	"ogms.SCTO_260787004" -> "obo.BFO_0000030" [label="is-a"]
+	"ogms.SCTO_264752007" -> "ogms.SCTO_272396007" [label="is-a"]
+	"ogms.SCTO_272099008" -> "ogms.SCTO_362981000" [label="is-a"]
+	"ogms.SCTO_272103003" -> "ogms.SCTO_272099008" [label="is-a"]
+	"ogms.SCTO_272126005" -> "ogms.SCTO_272103003" [label="is-a"]
+	"ogms.SCTO_272127001" -> "ogms.SCTO_272126005" [label="is-a"]
+	"ogms.SCTO_272396007" -> "ogms.SCTO_362981000" [label="is-a"]
+	"ogms.SCTO_272424004" -> "ogms.SCTO_309825002" [label="is-a"]
+	"ogms.SCTO_277302009" -> "ogms.SCTO_272099008" [label="is-a"]
+	"ogms.SCTO_277367001" -> "ogms.SCTO_277302009" [label="is-a"]
+	"ogms.SCTO_281586009" -> "ogms.SCTO_362981000" [label="is-a"]
+	"ogms.SCTO_303102005" -> "ogms.SCTO_281586009" [label="is-a"]
+	"ogms.SCTO_307142001" -> "ogms.SCTO_303102005" [label="is-a"]
+	"ogms.SCTO_308489006" -> "ogms.SCTO_303102005" [label="is-a"]
+	"ogms.SCTO_309825002" -> "ogms.SCTO_362981000" [label="is-a"]
+	"ogms.SCTO_362981000" -> "obo.BFO_0000031" [label="is-a"]
+	"ogms.SCTO_363704007" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_399455000" -> "ogms.SCTO_277367001" [label="is-a"]
+	"ogms.SCTO_405815000" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_405816004" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_410662002" -> "ogms.SCTO_246061005" [label="is-a"]
+	"ogms.SCTO_424226004" -> "ogms.SCTO_405815000" [label="is-a"]
+	"ogms.SCTO_442083009" -> "ogms.SCTO_123037004" [label="is-a"]
+	"ogms.SCTO_47429007" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_71388002" -> "obo.BFO_0000015" [label="is-a"]
+	"snomed.SCTO_129284003" -> "ogms.SCTO_129264002_2" [label="is-a"]
+	"snomed.SCTO_129300006" -> "ogms.SCTO_129264002_2" [label="is-a"]
+	"snomed.SCTO_129325002" -> "ogms.SCTO_129264002_2" [label="is-a"]
+	"snomed.SCTO_129347002" -> "snomed.SCTO_410820007" [label="is-a"]
+	"snomed.SCTO_129371009" -> "snomed.SCTO_129284003" [label="is-a"]
+	"snomed.SCTO_129407005" -> "snomed.SCTO_425362007" [label="is-a"]
+	"snomed.SCTO_257867005" -> "snomed.SCTO_129325002" [label="is-a"]
+	"snomed.SCTO_288529006" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_288532009" -> "snomed.SCTO_288529006" [label="is-a"]
+	"snomed.SCTO_410510008" -> "snomed.SCTO_288529006" [label="is-a"]
+	"snomed.SCTO_410511007" -> "snomed.SCTO_410510008" [label="is-a"]
+	"snomed.SCTO_410514004" -> "snomed.SCTO_288529006" [label="is-a"]
+	"snomed.SCTO_410820007" -> "snomed.SCTO_129407005" [label="is-a"]
+	"snomed.SCTO_419988009" -> "ogms.SCTO_129264002_2" [label="is-a"]
+	"snomed.SCTO_425362007" -> "snomed.SCTO_257867005" [label="is-a"]
+	"snomed.SCTO_7389001" -> "ogms.SCTO_362981000" [label="is-a"]
+	"obo.BFO_0000011" -> "obo.BFO_0000003" [label="is-a"]
+	"obo.BFO_0000009" -> "obo.BFO_0000006" [label="is-a"]
+	"obo.BFO_0000018" -> "obo.BFO_0000006" [label="is-a"]
+	"obo.BFO_0000026" -> "obo.BFO_0000006" [label="is-a"]
+	"obo.BFO_0000028" -> "obo.BFO_0000006" [label="is-a"]
+	"ogms.SCTO_223496003" -> "obo.BFO_0000006" [label="is-a"]
+	"obo.BFO_0000038" -> "obo.BFO_0000008" [label="is-a"]
+	"obo.BFO_0000148" -> "obo.BFO_0000008" [label="is-a"]
+	"obo.BFO_0000144" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.BFO_0000182" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OBI_0000011" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000055" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000056" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000057" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000059" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000090" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000091" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000092" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000095" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000103" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000104" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000105" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.OGMS_0000106" -> "obo.BFO_0000015" [label="is-a"]
+	"obo.BFO_0000034" -> "obo.BFO_0000016" [label="is-a"]
+	"obo.BFO_0000023" -> "obo.BFO_0000017" [label="is-a"]
+	"obo.BFO_0000145" -> "obo.BFO_0000019" [label="is-a"]
+	"obo.OGMS_0000086" -> "obo.BFO_0000019" [label="is-a"]
+	"ogms.SCTO_363787002" -> "obo.BFO_0000020" [label="is-a"]
+	"ogms.SCTO_78621006" -> "obo.BFO_0000020" [label="is-a"]
+	"ogms.SCTO_276339004" -> "obo.BFO_0000029" [label="is-a"]
+	"ogms.SCTO_105590001" -> "obo.BFO_0000030" [label="is-a"]
+	"ogms.SCTO_123038009" -> "obo.BFO_0000030" [label="is-a"]
+	"ogms.SCTO_373873005" -> "obo.BFO_0000030" [label="is-a"]
+	"ogms.SCTO_410607006" -> "obo.BFO_0000030" [label="is-a"]
+	"obo.OGMS_0000074" -> "obo.BFO_0000031" [label="is-a"]
+	"ogms.SCTO_254291000" -> "obo.BFO_0000031" [label="is-a"]
+	"ogms.SCTO_419891008" -> "obo.BFO_0000031" [label="is-a"]
+	"ogms.SCTO_272379006" -> "obo.BFO_0000035" [label="is-a"]
+	"obo.BFO_0000027" -> "obo.BFO_0000040" [label="is-a"]
+	"obo.OGMS_0000077" -> "obo.BFO_0000040" [label="is-a"]
+	"obo.OGMS_0000078" -> "obo.BFO_0000040" [label="is-a"]
+	"obo.OGMS_0000079" -> "obo.BFO_0000040" [label="is-a"]
+	"obo.OGMS_0000084" -> "obo.BFO_0000040" [label="is-a"]
+	"obo.OGMS_0000087" -> "obo.BFO_0000040" [label="is-a"]
+	"obo.OGMS_0000089" -> "obo.BFO_0000040" [label="is-a"]
+	"obo.BFO_0000142" -> "obo.BFO_0000140" [label="is-a"]
+	"obo.BFO_0000146" -> "obo.BFO_0000140" [label="is-a"]
+	"obo.BFO_0000147" -> "obo.BFO_0000140" [label="is-a"]
+	"obo.OGMS_0000016" -> "obo.IAO_0000027" [label="is-a"]
+	"obo.OGMS_0000019" -> "obo.IAO_0000027" [label="is-a"]
+	"obo.OGMS_0000073" -> "obo.IAO_0000027" [label="is-a"]
+	"obo.OGMS_0000093" -> "obo.IAO_0000027" [label="is-a"]
+	"obo.IAO_0000033" -> "obo.IAO_0000030" [label="is-a"]
+	"obo.OGMS_0000088" -> "obo.IAO_0000030" [label="is-a"]
+	"obo.IAO_0000078" -> "obo.IAO_0000102" [label="is-a"]
+	"obo.IAO_0000225" -> "obo.IAO_0000102" [label="is-a"]
+	"obo.IAO_0000409" -> "obo.IAO_0000102" [label="is-a"]
+	"oboInOwl.DbXref" -> "obo.IAO_0000102" [label="is-a"]
+	"oboInOwl.Definition" -> "obo.IAO_0000102" [label="is-a"]
+	"oboInOwl.Subset" -> "obo.IAO_0000102" [label="is-a"]
+	"oboInOwl.Synonym" -> "obo.IAO_0000102" [label="is-a"]
+	"oboInOwl.SynonymType" -> "obo.IAO_0000102" [label="is-a"]
+	"obo.OGMS_0000015" -> "obo.OGMS_0000014" [label="is-a"]
+	"obo.OGMS_0000017" -> "obo.OGMS_0000014" [label="is-a"]
+	"obo.OGMS_0000018" -> "obo.OGMS_0000014" [label="is-a"]
+	"obo.OGMS_0000031" -> "obo.OGMS_0000014" [label="is-a"]
+	"obo.OGMS_0000083" -> "obo.OGMS_0000014" [label="is-a"]
+	"obo.OGMS_0000085" -> "obo.OGMS_0000020" [label="is-a"]
+	"obo.OGMS_0000025" -> "obo.OGMS_0000022" [label="is-a"]
+	"obo.OGMS_0000026" -> "obo.OGMS_0000022" [label="is-a"]
+	"obo.OGMS_0000027" -> "obo.OGMS_0000023" [label="is-a"]
+	"obo.OGMS_0000028" -> "obo.OGMS_0000023" [label="is-a"]
+	"obo.OGMS_0000029" -> "obo.OGMS_0000024" [label="is-a"]
+	"obo.OGMS_0000033" -> "obo.OGMS_0000030" [label="is-a"]
+	"obo.OGMS_0000034" -> "obo.OGMS_0000031" [label="is-a"]
+	"obo.OGMS_0000035" -> "obo.OGMS_0000031" [label="is-a"]
+	"obo.OGMS_0000037" -> "obo.OGMS_0000032" [label="is-a"]
+	"obo.OGMS_0000038" -> "obo.OGMS_0000032" [label="is-a"]
+	"obo.OGMS_0000040" -> "obo.OGMS_0000039" [label="is-a"]
+	"obo.OGMS_0000046" -> "obo.OGMS_0000045" [label="is-a"]
+	"obo.OGMS_0000102" -> "obo.OGMS_0000045" [label="is-a"]
+	"obo.OGMS_0000050" -> "obo.OGMS_0000047" [label="is-a"]
+	"obo.OGMS_0000051" -> "obo.OGMS_0000047" [label="is-a"]
+	"obo.OGMS_0000080" -> "obo.OGMS_0000061" [label="is-a"]
+	"obo.OGMS_0000081" -> "obo.OGMS_0000061" [label="is-a"]
+	"obo.OGMS_0000082" -> "obo.OGMS_0000061" [label="is-a"]
+	"obo.OGMS_0000064" -> "obo.OGMS_0000063" [label="is-a"]
+	"obo.OGMS_0000065" -> "obo.OGMS_0000063" [label="is-a"]
+	"obo.OGMS_0000066" -> "obo.OGMS_0000063" [label="is-a"]
+	"obo.OGMS_0000094" -> "obo.OGMS_0000063" [label="is-a"]
+	"obo.OGMS_0000098" -> "obo.OGMS_0000097" [label="is-a"]
+	"obo.OGMS_0000099" -> "obo.OGMS_0000097" [label="is-a"]
+	"obo.OGMS_0000100" -> "obo.OGMS_0000097" [label="is-a"]
+	"obo.OGMS_0000101" -> "obo.OGMS_0000097" [label="is-a"]
+	"ogms.SCTO_00000001" -> "ogms.SCTO_00000000" [label="is-a"]
+	"ogms.SCTO_00000002" -> "ogms.SCTO_00000000" [label="is-a"]
+	"ogms.SCTO_49755003" -> "ogms.SCTO_118956008" [label="is-a"]
+	"snomed.SCTO_360220002" -> "ogms.SCTO_129264002_2" [label="is-a"]
+	"ogms.SCTO_7771000" -> "ogms.SCTO_182353008" [label="is-a"]
+	"ogms.SCTO_51440002" -> "ogms.SCTO_24028007" [label="is-a"]
+	"ogms.SCTO_272141005" -> "ogms.SCTO_258349007" [label="is-a"]
+	"ogms.SCTO_49062001" -> "ogms.SCTO_260787004" [label="is-a"]
+	"ogms.SCTO_272125009" -> "ogms.SCTO_272103003" [label="is-a"]
+	"ogms.SCTO_255231005" -> "ogms.SCTO_272127001" [label="is-a"]
+	"ogms.SCTO_257958009" -> "ogms.SCTO_272127001" [label="is-a"]
+	"ogms.SCTO_66459002" -> "ogms.SCTO_272424004" [label="is-a"]
+	"ogms.SCTO_363675004" -> "ogms.SCTO_277367001" [label="is-a"]
+	"ogms.SCTO_288524001" -> "ogms.SCTO_303102005" [label="is-a"]
+	"ogms.SCTO_288526004" -> "ogms.SCTO_303102005" [label="is-a"]
+	"ogms.SCTO_282032007" -> "ogms.SCTO_307142001" [label="is-a"]
+	"ogms.SCTO_263680009" -> "ogms.SCTO_308489006" [label="is-a"]
+	"ogms.SCTO_103379005" -> "ogms.SCTO_309825002" [label="is-a"]
+	"ogms.SCTO_309795001" -> "ogms.SCTO_309825002" [label="is-a"]
+	"ogms.SCTO_105904009" -> "ogms.SCTO_362981000" [label="is-a"]
+	"ogms.SCTO_260245000" -> "ogms.SCTO_362981000" [label="is-a"]
+	"ogms.SCTO_281296001" -> "ogms.SCTO_362981000" [label="is-a"]
+	"ogms.SCTO_284009009" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_106229004" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_106235004" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_106239005" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_115268005" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_115670007" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_118598001" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_129264002" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_21703008" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_257544000" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_260299005" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_272099008" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_272512009" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_276214006" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_278444000" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_288531002" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_297289008" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_307120002" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_308910008" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_363555003" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_394731006" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_413529001" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_414753003" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_415240008" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_422096002" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_698078002" -> "ogms.SCTO_362981000" [label="is-a"]
+	"snomed.SCTO_703763000" -> "ogms.SCTO_362981000" [label="is-a"]
+	"ogms.SCTO_405813007" -> "ogms.SCTO_363704007" [label="is-a"]
+	"ogms.SCTO_405814001" -> "ogms.SCTO_363704007" [label="is-a"]
+	"ogms.SCTO_261424001" -> "ogms.SCTO_399455000" [label="is-a"]
+	"ogms.SCTO_363699004" -> "ogms.SCTO_405815000" [label="is-a"]
+	"ogms.SCTO_363710007" -> "ogms.SCTO_405815000" [label="is-a"]
+	"ogms.SCTO_363700003" -> "ogms.SCTO_405816004" [label="is-a"]
+	"ogms.SCTO_363709002" -> "ogms.SCTO_405816004" [label="is-a"]
+	"ogms.SCTO_116676008" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_116686009" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_118168003" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_118169006" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_118170007" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_118171006" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_123005000" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_127489000" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_246093002" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_246112005" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_246454002" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_246456000" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_246513007" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_246514001" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_260507000" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_260686004" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_260870009" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_263502005" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_272741003" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_363698007" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_363701004" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_363702006" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_363703001" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_363705008" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_363713009" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_363714003" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_370129005" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_370130000" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_370131001" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_370132008" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_370133003" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_370134009" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_370135005" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_410675002" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_411116001" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_418775008" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_419066007" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_424244007" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_424361007" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_424876005" -> "ogms.SCTO_410662002" [label="is-a"]
+	"ogms.SCTO_425391005" -> "ogms.SCTO_424226004" [label="is-a"]
+	"ogms.SCTO_280115004" -> "ogms.SCTO_442083009" [label="is-a"]
+	"ogms.SCTO_91723000" -> "ogms.SCTO_442083009" [label="is-a"]
+	"ogms.SCTO_246075003" -> "ogms.SCTO_47429007" [label="is-a"]
+	"ogms.SCTO_255234002" -> "ogms.SCTO_47429007" [label="is-a"]
+	"ogms.SCTO_42752001" -> "ogms.SCTO_47429007" [label="is-a"]
+	"snomed.DTO":0001943 -> "ogms.SCTO_71388002" [label="is-a"]
+	"snomed.DTO":0001944 -> "ogms.SCTO_71388002" [label="is-a"]
+	"snomed.SCTO_430975009" -> "snomed.SCTO_129300006" [label="is-a"]
+	"snomed.SCTO_129348007" -> "snomed.SCTO_129347002" [label="is-a"]
+	"snomed.SCTO_257937003" -> "snomed.SCTO_129347002" [label="is-a"]
+	"snomed.SCTO_360032005" -> "snomed.SCTO_129347002" [label="is-a"]
+	"snomed.SCTO_129379006" -> "snomed.SCTO_129371009" [label="is-a"]
+	"snomed.SCTO_129380009" -> "snomed.SCTO_129371009" [label="is-a"]
+	"snomed.SCTO_360038009" -> "snomed.SCTO_129371009" [label="is-a"]
+	"snomed.SCTO_385660001" -> "snomed.SCTO_288532009" [label="is-a"]
+	"snomed.SCTO_410536001" -> "snomed.SCTO_288532009" [label="is-a"]
+	"snomed.SCTO_410512000" -> "snomed.SCTO_410511007" [label="is-a"]
+	"snomed.SCTO_410513005" -> "snomed.SCTO_410511007" [label="is-a"]
+	"snomed.SCTO_261665006" -> "snomed.SCTO_410514004" [label="is-a"]
+	"snomed.SCTO_36692007" -> "snomed.SCTO_410514004" [label="is-a"]
+	"snomed.SCTO_419385000" -> "snomed.SCTO_419988009" [label="is-a"]
+	"snomed.SCTO_419652001" -> "snomed.SCTO_419988009" [label="is-a"]
+	"snomed.SCTO_123035007" -> "snomed.SCTO_7389001" [label="is-a"]
+	"snomed.SCTO_422133006" -> "snomed.SCTO_7389001" [label="is-a"]
+}

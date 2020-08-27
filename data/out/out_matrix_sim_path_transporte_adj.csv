@@ -1,0 +1,10 @@
+0,automóvel,bicicleta,caminhão,leve,motocicleta,pesado,trator,veículo,ônibus
+automóvel,1,1,1,1,1,1,1,0.5,1
+bicicleta,1,1,1,1,1,1,1,0.5,1
+caminhão,1,1,1,1,1,1,1,0.5,1
+leve,1,1,1,1,1,1,1,1.0,1
+motocicleta,1,1,1,1,1,1,1,0.5,1
+pesado,1,1,1,1,1,1,1,1.0,1
+trator,1,1,1,1,1,1,1,0.5,1
+veículo,1,1,1,1,1,1,1,1.0,1
+ônibus,1,1,1,1,1,1,1,0.5,1

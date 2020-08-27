@@ -1,0 +1,19 @@
+digraph G {
+	pad=3 rankdir=RL size="8,4"
+	node [fillcolor=lightgray shape=box style="rounded,filled"]
+	D
+	C1
+	F
+	A
+	B
+	E
+	C2
+	A -> C1 [label=" "]
+	A -> C2 [label=" "]
+	B -> C1 [label=" "]
+	B -> C2 [label=" "]
+	D -> C2 [label=" "]
+	E -> C2 [label=" "]
+	F -> C2 [label=" "]
+	F -> C1 [label=" "]
+}

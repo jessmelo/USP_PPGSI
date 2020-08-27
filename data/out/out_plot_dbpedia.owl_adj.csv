@@ -1,0 +1,1430 @@
+digraph G {
+	pad=3 rankdir=RL size="8,4"
+	node [fillcolor=lightgray shape=box style="rounded,filled"]
+	"dbpedia.SnookerPlayer"
+	"dbpedia.Library"
+	"dbpedia.Album"
+	"dbpedia.Place"
+	"dbpedia.Singer"
+	"dbpedia.GrandPrix"
+	"dbpedia.ChemicalCompound"
+	"dbpedia.SkiArea"
+	"dbpedia.Hotel"
+	"dbpedia.Mineral"
+	"dbpedia.AnatomicalStructure"
+	"dbpedia.Criminal"
+	"dbpedia.RaceHorse"
+	"dbpedia.BullFighter"
+	"dbpedia.Medician"
+	"dbpedia.College"
+	"dbpedia.CardGame"
+	"dbpedia.HockeyTeam"
+	"dbpedia.HumanGeneLocation"
+	"dbpedia.BasketballTeam"
+	"dbpedia.Surname"
+	"dbpedia.MobilePhone"
+	"dbpedia.Municipality"
+	"dbpedia.FormulaOneRacer"
+	"dbpedia.Humorist"
+	"dbpedia.Company"
+	"dbpedia.Ambassador"
+	"dbpedia.PrehistoricalPeriod"
+	"dbpedia.CountrySeat"
+	"dbpedia.SpeedwayTeam"
+	"dbpedia.BoxingStyle"
+	"dbpedia.Quote"
+	"dbpedia.Town"
+	"dbpedia.Factory"
+	"dbpedia.AdministrativeRegion"
+	"dbpedia.GeopoliticalOrganisation"
+	"dbpedia.Venue"
+	"dbpedia.Election"
+	"dbpedia.TradeUnion"
+	"dbpedia.Award"
+	"dbpedia.VideogamesLeague"
+	"dbpedia.Spacecraft"
+	"dbpedia.ProtectedArea"
+	"dbpedia.MotorRace"
+	"dbpedia.Image"
+	"dbpedia.Biathlete"
+	"dbpedia.InternationalOrganisation"
+	"dbpedia.Painting"
+	"dbpedia.GolfLeague"
+	"dbpedia.Cardinal"
+	"dbpedia.Contest"
+	"dbpedia.ChessPlayer"
+	"dbpedia.TelevisionStation"
+	"dbpedia.Ocean"
+	"dbpedia.Prison"
+	"dbpedia.Community"
+	"dbpedia.Synagogue"
+	"dbpedia.SocietalEvent"
+	"dbpedia.Biologist"
+	"dbpedia.CollegeCoach"
+	"dbpedia.AcademicSubject"
+	"dbpedia.PlayboyPlaymate"
+	"dbpedia.BeautyQueen"
+	"dbpedia.Attack"
+	"dbpedia.CareerStation"
+	"dbpedia.ClassicalMusicArtist"
+	"dbpedia.MovingWalkway"
+	"dbpedia.Arachnid"
+	"dbpedia.Sculptor"
+	"dbpedia.NarutoCharacter"
+	"dbpedia.Gate"
+	"dbpedia.HistoricalPeriod"
+	"dbpedia.Locomotive"
+	"dbpedia.Saint"
+	"dbpedia.LiteraryGenre"
+	"dbpedia.Bay"
+	"dbpedia.GatedCommunity"
+	"dbpedia.Poet"
+	"dbpedia.Religious"
+	"dbpedia.SportsTeamSeason"
+	"dbpedia.Competition"
+	"dbpedia.Pope"
+	"dbpedia.Cyclist"
+	"dbpedia.Desert"
+	"dbpedia.HollywoodCartoon"
+	"dbpedia.Game"
+	"dbpedia.SerialKiller"
+	"dbpedia.AmericanFootballTeam"
+	"dbpedia.CricketGround"
+	"dbpedia.Annotation"
+	"dbpedia.NobleFamily"
+	"dbpedia.Castle"
+	"dbpedia.Ligament"
+	"dbpedia.Year"
+	"dbpedia.NascarDriver"
+	"dbpedia.Insect"
+	"dbpedia.MotorcycleRacingLeague"
+	"dbpedia.Temple"
+	"dbpedia.SoccerManager"
+	"dbpedia.HandballTeam"
+	"dbpedia.NaturalRegion"
+	"dbpedia.LacrossePlayer"
+	"dbpedia.Earthquake"
+	"dbpedia.TelevisionDirector"
+	"dbpedia.Architect"
+	"dbpedia.UndergroundJournal"
+	"dbpedia.Convention"
+	"dbpedia.Conifer"
+	"dbpedia.Sound"
+	"dbpedia.ProgrammingLanguage"
+	"dbpedia.Monastery"
+	"dbpedia.ArcherPlayer"
+	"dbpedia.BiologicalDatabase"
+	"dbpedia.Planet"
+	"dbpedia.Athlete"
+	"dbpedia.MouseGene"
+	"dbpedia.MusicalArtist"
+	"dbpedia.RugbyClub"
+	"dbpedia.Egyptologist"
+	"dbpedia.NaturalEvent"
+	"dbpedia.RollerCoaster"
+	"dbpedia.CyclingTeam"
+	"dbpedia.VicePrimeMinister"
+	"dbpedia.CardinalDirection"
+	"dbpedia.SiteOfSpecialScientificInterest"
+	"dbpedia.Stadium"
+	"dbpedia.Watermill"
+	"dbpedia.EurovisionSongContestEntry"
+	"dbpedia.Broadcaster"
+	"dbpedia.EmployersOrganisation"
+	"dbpedia.Moss"
+	"dbpedia.Deity"
+	"dbpedia.NetballPlayer"
+	"dbpedia.Publisher"
+	"dbpedia.Fashion"
+	"dbpedia.Mountain"
+	"dbpedia.ChristianDoctrine"
+	"dbpedia.SkiResort"
+	"dbpedia.MusicFestival"
+	"dbpedia.ResearchProject"
+	"dbpedia.PoliticalConcept"
+	"dbpedia.OrganisationMember"
+	"dbpedia.SubMunicipality"
+	"dbpedia.Artist"
+	"dbpedia.RecordOffice"
+	"dbpedia.ClubMoss"
+	"dbpedia.AnimangaCharacter"
+	"dbpedia.LacrosseLeague"
+	"dbpedia.OverseasDepartment"
+	"dbpedia.Dog"
+	"dbpedia.Lake"
+	"dbpedia.Train"
+	"dbpedia.Galaxy"
+	"dbpedia.Region"
+	"dbpedia.SportsClub"
+	"dbpedia.Death"
+	"dbpedia.Locality"
+	"dbpedia.PowerStation"
+	"dbpedia.Asteroid"
+	"dbpedia.SportsTeam"
+	"dbpedia.VoiceActor"
+	"dbpedia.Gnetophytes"
+	"dbpedia.Memorial"
+	"dbpedia.InlineHockeyLeague"
+	"dbpedia.Continent"
+	"dbpedia.MixedMartialArtsLeague"
+	"dbpedia.Beer"
+	"dbpedia.FieldHockeyLeague"
+	"dbpedia.GovernmentType"
+	"dbpedia.Atoll"
+	"dbpedia.Island"
+	"dbpedia.Star"
+	"dbpedia.Tunnel"
+	"dbpedia.HistoricalProvince"
+	"dbpedia.MathematicalConcept"
+	"dbpedia.RailwayTunnel"
+	"dbpedia.StormSurge"
+	"dbpedia.Rocket"
+	"dbpedia.Aircraft"
+	"dbpedia.AustralianFootballLeague"
+	"dbpedia.NationalFootballLeagueEvent"
+	"dbpedia.TelevisionShow"
+	"dbpedia.Openswarm"
+	"dbpedia.HorseRace"
+	"dbpedia.Writer"
+	"dbpedia.Non-ProfitOrganisation"
+	"dbpedia.SoccerLeague"
+	"dbpedia.CityDistrict"
+	"dbpedia.MartialArtist"
+	"dbpedia.PersonFunction"
+	"dbpedia.Zoo"
+	"dbpedia.Rebellion"
+	"dbpedia.RailwayStation"
+	"dbpedia.City"
+	"dbpedia.CrossCountrySkier"
+	"dbpedia.MilitaryVehicle"
+	"dbpedia.HistoricalSettlement"
+	"dbpedia.AmericanFootballCoach"
+	"dbpedia.Anime"
+	"dbpedia.Airline"
+	"dbpedia.AthleticsPlayer"
+	"dbpedia.TeamMember"
+	"dbpedia.Sea"
+	"dbpedia.ClericalOrder"
+	"dbpedia.BaseballPlayer"
+	"dbpedia.ReligiousOrganisation"
+	"dbpedia.ChemicalElement"
+	"dbpedia.Celebrity"
+	"dbpedia.Deputy"
+	"dbpedia.Regency"
+	"dbpedia.File"
+	"dbpedia.AutomobileEngine"
+	"dbpedia.Play"
+	"dbpedia.Cemetery"
+	"dbpedia.Agglomeration"
+	"dbpedia.GreenAlga"
+	"dbpedia.Crustacean"
+	"dbpedia.Mammal"
+	"dbpedia.Economist"
+	"dbpedia.Aristocrat"
+	"dbpedia.MixedMartialArtsEvent"
+	"dbpedia.Windmill"
+	"dbpedia.MicroRegion"
+	"dbpedia.Skater"
+	"dbpedia.Horse"
+	"dbpedia.FloweringPlant"
+	"dbpedia.MemberOfParliament"
+	"dbpedia.CoalPit"
+	"dbpedia.Embryology"
+	"dbpedia.Surfer"
+	"dbpedia.BackScene"
+	"dbpedia.VolleyballPlayer"
+	"dbpedia.Employer"
+	"dbpedia.ClassicalMusicComposition"
+	"dbpedia.LegalCase"
+	"dbpedia.ArchitecturalStructure"
+	"dbpedia.DartsPlayer"
+	"dbpedia.Single"
+	"dbpedia.FictionalCharacter"
+	"dbpedia.WomensTennisAssociationTournament"
+	"dbpedia.Skyscraper"
+	"dbpedia.Birth"
+	"dbpedia.CanadianFootballLeague"
+	"dbpedia.SportFacility"
+	"dbpedia.Law"
+	"dbpedia.CapitalOfRegion"
+	"dbpedia.RadioControlledRacingLeague"
+	"dbpedia.Grape"
+	"dbpedia.Senator"
+	"dbpedia.RomanEmperor"
+	"dbpedia.Bone"
+	"dbpedia.HumanGene"
+	"dbpedia.FootballMatch"
+	"dbpedia.Guitarist"
+	"dbpedia.Novel"
+	"dbpedia.Parish"
+	"dbpedia.Beverage"
+	"dbpedia.VideoGame"
+	"dbpedia.HistoricalRegion"
+	"dbpedia.Country"
+	"dbpedia.MovieDirector"
+	"dbpedia.Vicar"
+	"dbpedia.DistrictWaterBoard"
+	"dbpedia.Arena"
+	"dbpedia.Rower"
+	"dbpedia.MilitaryStructure"
+	"dbpedia.Eukaryote"
+	"dbpedia.Treadmill"
+	"dbpedia.MetroStation"
+	"dbpedia.OlympicEvent"
+	"dbpedia.NationalFootballLeagueSeason"
+	"dbpedia.Lock"
+	"dbpedia.GovernmentalAdministrativeRegion"
+	"dbpedia.RugbyPlayer"
+	"dbpedia.TrackList"
+	"dbpedia.Letter"
+	"dbpedia.SportsLeague"
+	"dbpedia.Boxing"
+	"dbpedia.StillImage"
+	"dbpedia.Athletics"
+	"dbpedia.SolarEclipse"
+	"dbpedia.Infrastructure"
+	"dbpedia.Philosopher"
+	"dbpedia.Newspaper"
+	"dbpedia.CurlingLeague"
+	"dbpedia.ArtisticGenre"
+	"dbpedia.BobsleighAthlete"
+	"dbpedia.Professor"
+	"dbpedia.Taxon"
+	"dbpedia.Lipid"
+	"dbpedia.Linguist"
+	"dbpedia.ClericalAdministrativeRegion"
+	"dbpedia.Mine"
+	"dbpedia.SnookerWorldRanking"
+	"dbpedia.ConcentrationCamp"
+	"dbpedia.Film"
+	"dbpedia.Animal"
+	"dbpedia.TelevisionSeason"
+	"dbpedia.Province"
+	"dbpedia.Archive"
+	"dbpedia.AmericanFootballPlayer"
+	"dbpedia.Manhwa"
+	"dbpedia.TimePeriod"
+	"dbpedia.HandballLeague"
+	"dbpedia.Constellation"
+	"dbpedia.PopulatedPlace"
+	"dbpedia.AmateurBoxer"
+	"dbpedia.CricketTeam"
+	"dbpedia.Automobile"
+	"dbpedia.WaterTower"
+	"dbpedia.Weapon"
+	"dbpedia.WrittenWork"
+	"dbpedia.DocumentType"
+	"dbpedia.ChristianPatriarch"
+	"dbpedia.Shrine"
+	"dbpedia.Painter"
+	"dbpedia.Winery"
+	"dbpedia.Priest"
+	"dbpedia.DTMRacer"
+	"dbpedia.AmericanFootballLeague"
+	"dbpedia.ComicsCharacter"
+	"dbpedia.On-SiteTransportation"
+	"dbpedia.BroadcastNetwork"
+	"dbpedia.District"
+	"dbpedia.UnitOfWork"
+	"dbpedia.SquashPlayer"
+	"dbpedia.Archipelago"
+	"dbpedia.HistoricPlace"
+	"dbpedia.Device"
+	"dbpedia.Vein"
+	"dbpedia.TennisPlayer"
+	"dbpedia.BowlingLeague"
+	"dbpedia.BrownDwarf"
+	"dbpedia.Mosque"
+	"dbpedia.SpeedwayRider"
+	"dbpedia.Legislature"
+	"dbpedia.BritishRoyalty"
+	"dbpedia.Congressman"
+	"dbpedia.Photographer"
+	"dbpedia.Dam"
+	"dbpedia.BoxingLeague"
+	"dbpedia.Astronaut"
+	"dbpedia.StatedResolution"
+	"dbpedia.RailwayLine"
+	"dbpedia.Crater"
+	"dbpedia.List"
+	"dbpedia.PoloLeague"
+	"dbpedia.Website"
+	"dbpedia.Sport"
+	"dbpedia.BoardGame"
+	"dbpedia.GraveMonument"
+	"dbpedia.Opera"
+	"dbpedia.School"
+	"dbpedia.President"
+	"dbpedia.Monument"
+	"dbpedia.ComicsCreator"
+	"dbpedia.ComedyGroup"
+	"dbpedia.Comedian"
+	"dbpedia.SambaSchool"
+	"dbpedia.Manga"
+	"dbpedia.InternationalFootballLeagueEvent"
+	"dbpedia.Cycad"
+	"dbpedia.Park"
+	"dbpedia.Volcano"
+	"dbpedia.Organ"
+	"dbpedia.Amphibian"
+	"dbpedia.SpeedSkater"
+	"dbpedia.SumoWrestler"
+	"dbpedia.SoccerPlayer"
+	"dbpedia.Bank"
+	"dbpedia.Nerve"
+	"dbpedia.FigureSkater"
+	"dbpedia.TelevisionHost"
+	"dbpedia.VicePresident"
+	"dbpedia.TennisLeague"
+	"dbpedia.PhilosophicalConcept"
+	"dbpedia.MeanOfTransportation"
+	"dbpedia.ProtohistoricalPeriod"
+	"dbpedia.GeneLocation"
+	"dbpedia.Mollusca"
+	"dbpedia.AutoRacingLeague"
+	"dbpedia.OldTerritory"
+	"dbpedia.Model"
+	"dbpedia.CultivatedVariety"
+	"dbpedia.Beach"
+	"dbpedia.MusicComposer"
+	"dbpedia.IceHockeyLeague"
+	"dbpedia.Manhua"
+	"dbpedia.Village"
+	"dbpedia.GivenName"
+	"dbpedia.Restaurant"
+	"dbpedia.Swimmer"
+	"dbpedia.MythologicalFigure"
+	"dbpedia.Work"
+	"dbpedia.RadioHost"
+	"dbpedia.WrestlingEvent"
+	"dbpedia.CelestialBody"
+	"dbpedia.SoapCharacter"
+	"dbpedia.Agent"
+	"dbpedia.Chef"
+	"dbpedia.Name"
+	"dbpedia.OlympicResult"
+	"dbpedia.Mayor"
+	"dbpedia.AcademicJournal"
+	"dbpedia.Port"
+	"dbpedia.Theatre"
+	"dbpedia.PeriodicalLiterature"
+	"dbpedia.BaseballTeam"
+	"dbpedia.Intercommunality"
+	"dbpedia.PublicTransitSystem"
+	"dbpedia.PoliticalFunction"
+	"dbpedia.Tower"
+	"dbpedia.HistoricalDistrict"
+	"dbpedia.Artwork"
+	"dbpedia.Monarch"
+	"dbpedia.Mill"
+	"dbpedia.SoftballLeague"
+	"dbpedia.Referee"
+	"dbpedia.Resume"
+	"dbpedia.ArtificialSatellite"
+	"dbpedia.Boxer"
+	"dbpedia.GovernmentAgency"
+	"dbpedia.SongWriter"
+	"dbpedia.LaunchPad"
+	"dbpedia.Fern"
+	"dbpedia.Camera"
+	"dbpedia.Gymnast"
+	"dbpedia.Lieutenant"
+	"dbpedia.Species"
+	"dbpedia.Artery"
+	"dbpedia.OfficeHolder"
+	"dbpedia.Psychologist"
+	"dbpedia.WaterRide"
+	"dbpedia.HotSpring"
+	"dbpedia.BusCompany"
+	"dbpedia.Family"
+	"dbpedia.AustralianRulesFootballPlayer"
+	"dbpedia.FilmFestival"
+	"dbpedia.FormulaOneTeam"
+	"dbpedia.VolleyballCoach"
+	"dbpedia.Swarm"
+	"dbpedia.Street"
+	"dbpedia.Valley"
+	"dbpedia.VolleyballLeague"
+	"dbpedia.Cleric"
+	"dbpedia.Song"
+	"dbpedia.RoadJunction"
+	"owl.Thing"
+	"dbpedia.Sculpture"
+	"dbpedia.MilitaryAircraft"
+	"dbpedia.Biomolecule"
+	"dbpedia.Murderer"
+	"dbpedia.Cheese"
+	"dbpedia.FillingStation"
+	"dbpedia.Olympics"
+	"dbpedia.Canal"
+	"dbpedia.Event"
+	"dbpedia.HorseRiding"
+	"dbpedia.LightNovel"
+	"dbpedia.LunarCrater"
+	"dbpedia.Governor"
+	"dbpedia.Protein"
+	"dbpedia.FormulaOneRacing"
+	"dbpedia.Baronet"
+	"dbpedia.Farmer"
+	"dbpedia.Royalty"
+	"dbpedia.Plant"
+	"dbpedia.Church"
+	"dbpedia.ShoppingMall"
+	"dbpedia.MouseGeneLocation"
+	"dbpedia.PlayWright"
+	"dbpedia.Bridge"
+	"dbpedia.BodyOfWater"
+	"dbpedia.Brewery"
+	"dbpedia.Wine"
+	"dbpedia.NaturalPlace"
+	"dbpedia.Engine"
+	"dbpedia.Vodka"
+	"dbpedia.Archaea"
+	"dbpedia.Caterer"
+	"dbpedia.Historian"
+	"dbpedia.BeachVolleyballPlayer"
+	"dbpedia.HorseRider"
+	"dbpedia.MilitaryUnit"
+	"dbpedia.Race"
+	"dbpedia.Comic"
+	"dbpedia.YearInSpaceflight"
+	"dbpedia.WorldHeritageSite"
+	"dbpedia.Escalator"
+	"dbpedia.MusicGenre"
+	"dbpedia.Coach"
+	"dbpedia.Archeologist"
+	"dbpedia.CyclingLeague"
+	"dbpedia.Reptile"
+	"dbpedia.Road"
+	"dbpedia.Racecourse"
+	"dbpedia.RugbyLeague"
+	"dbpedia.SoccerClubSeason"
+	"dbpedia.AdultActor"
+	"dbpedia.Enzyme"
+	"dbpedia.PoliticianSpouse"
+	"dbpedia.TheologicalConcept"
+	"dbpedia.RecordLabel"
+	"dbpedia.MotorcycleRider"
+	"dbpedia.Muscle"
+	"dbpedia.Entomologist"
+	"dbpedia.SupremeCourtOfTheUnitedStatesCase"
+	"dbpedia.Capital"
+	"dbpedia.Globularswarm"
+	"dbpedia.CanadianFootballPlayer"
+	"dbpedia.FashionDesigner"
+	"dbpedia.IceHockeyPlayer"
+	"dbpedia.GolfPlayer"
+	"dbpedia.Fencer"
+	"dbpedia.NationalSoccerClub"
+	"dbpedia.HockeyClub"
+	"dbpedia.GaelicGamesPlayer"
+	"dbpedia.BaseballLeague"
+	"dbpedia.Noble"
+	"dbpedia.Genre"
+	"dbpedia.SpaceMission"
+	"dbpedia.ScreenWriter"
+	"dbpedia.Abbey"
+	"dbpedia.TopicalConcept"
+	"dbpedia.GridironFootballPlayer"
+	"dbpedia.Lawyer"
+	"dbpedia.Instrument"
+	"dbpedia.ReligiousBuilding"
+	"dbpedia.Dancer"
+	"dbpedia.CanadianFootballTeam"
+	"dbpedia.Wrestler"
+	"dbpedia.Settlement"
+	"dbpedia.MotorsportSeason"
+	"dbpedia.MovieGenre"
+	"dbpedia.River"
+	"dbpedia.Divorce"
+	"dbpedia.RocketEngine"
+	"dbpedia.Orphan"
+	"dbpedia.Poem"
+	"dbpedia.Sales"
+	"dbpedia.ComicStrip"
+	"dbpedia.WinterSportPlayer"
+	"dbpedia.Document"
+	"dbpedia.MusicalWork"
+	"dbpedia.GolfCourse"
+	"dbpedia.RadioProgram"
+	"dbpedia.Drama"
+	"dbpedia.InformationAppliance"
+	"dbpedia.Musical"
+	"dbpedia.Ginkgo"
+	"dbpedia.Deanery"
+	"dbpedia.GolfTournament"
+	"dbpedia.Parliament"
+	"dbpedia.Host"
+	"dbpedia.Journalist"
+	"dbpedia.SystemOfLaw"
+	"dbpedia.BasketballLeague"
+	"dbpedia.MotorsportRacer"
+	"dbpedia.Fungus"
+	"dbpedia.Tournament"
+	"dbpedia.MultiVolumePublication"
+	"dbpedia.Meeting"
+	"dbpedia.WineRegion"
+	"dbpedia.PrimeMinister"
+	"dbpedia.TableTennisPlayer"
+	"dbpedia.SportCompetitionResult"
+	"dbpedia.Decoration"
+	"dbpedia.Territory"
+	"dbpedia.RouteOfTransportation"
+	"dbpedia.SpeedwayLeague"
+	"dbpedia.Ideology"
+	"dbpedia.Band"
+	"dbpedia.Group"
+	"dbpedia.SportsTeamMember"
+	"dbpedia.University"
+	"dbpedia.PoliticalParty"
+	"dbpedia.ArtistDiscography"
+	"dbpedia.Gene"
+	"dbpedia.Activity"
+	"dbpedia.TermOfOffice"
+	"dbpedia.Stream"
+	"dbpedia.DisneyCharacter"
+	"dbpedia.ScientificConcept"
+	"dbpedia.NCAATeamSeason"
+	"dbpedia.ControlledDesignationOfOriginWine"
+	"dbpedia.Lighthouse"
+	"dbpedia.SportsSeason"
+	"dbpedia.Standard"
+	"dbpedia.DigitalCamera"
+	"dbpedia.Ship"
+	"dbpedia.NuclearPowerStation"
+	"dbpedia.Profession"
+	"dbpedia.Satellite"
+	"dbpedia.LifeCycleEvent"
+	"dbpedia.TennisTournament"
+	"dbpedia.RestArea"
+	"dbpedia.Hospital"
+	"dbpedia.MountainPass"
+	"dbpedia.Motorcycle"
+	"dbpedia.RadioStation"
+	"dbpedia.MusicDirector"
+	"dbpedia.Brain"
+	"dbpedia.BadmintonPlayer"
+	"dbpedia.Food"
+	"dbpedia.Bacteria"
+	"dbpedia.PaintballLeague"
+	"dbpedia.NobelPrize"
+	"dbpedia.Glacier"
+	"dbpedia.MovingImage"
+	"dbpedia.Airport"
+	"dbpedia.SoccerTournament"
+	"dbpedia.Museum"
+	"dbpedia.ConveyorSystem"
+	"dbpedia.Prefecture"
+	"dbpedia.HorseTrainer"
+	"dbpedia.CyclingCompetition"
+	"dbpedia.MotocycleRacer"
+	"dbpedia.Bird"
+	"dbpedia.Book"
+	"dbpedia.WaterPoloPlayer"
+	"dbpedia.ElectricalSubstation"
+	"dbpedia.Organisation"
+	"dbpedia.RallyDriver"
+	"dbpedia.Producer"
+	"dbpedia.TheatreDirector"
+	"dbpedia.Politician"
+	"dbpedia.Scientist"
+	"dbpedia.State"
+	"dbpedia.HighDiver"
+	"dbpedia.MemberResistanceMovement"
+	"dbpedia.Bodybuilder"
+	"dbpedia.CyclingRace"
+	"dbpedia.Case"
+	"dbpedia.RaceTrack"
+	"dbpedia.GeologicalPeriod"
+	"dbpedia.RacingDriver"
+	"dbpedia.NationalAnthem"
+	"dbpedia.Diocese"
+	"dbpedia.Building"
+	"dbpedia.Ski_jumper"
+	"dbpedia.SpaceShuttle"
+	"dbpedia.CricketLeague"
+	"dbpedia.WaterwayTunnel"
+	"dbpedia.Judge"
+	"dbpedia.RoadTunnel"
+	"dbpedia.Person"
+	"dbpedia.Cave"
+	"dbpedia.Article"
+	"dbpedia.SoccerLeagueSeason"
+	"dbpedia.Guitar"
+	"dbpedia.FootballLeagueSeason"
+	"dbpedia.Square"
+	"dbpedia.Fish"
+	"dbpedia.MilitaryPerson"
+	"dbpedia.Database"
+	"dbpedia.SnookerChamp"
+	"dbpedia.SportsEvent"
+	"dbpedia.AmusementParkAttraction"
+	"dbpedia.Tax"
+	"dbpedia.Polysaccharide"
+	"dbpedia.ChemicalSubstance"
+	"dbpedia.PokerPlayer"
+	"dbpedia.AustralianFootballTeam"
+	"dbpedia.HandballPlayer"
+	"dbpedia.Marriage"
+	"dbpedia.Reference"
+	"dbpedia.Cartoon"
+	"dbpedia.SportsManager"
+	"dbpedia.ChristianBishop"
+	"dbpedia.Skier"
+	"dbpedia.Station"
+	"dbpedia.PeriodOfArtisticStyle"
+	"dbpedia.Type"
+	"dbpedia.Department"
+	"dbpedia.Magazine"
+	"dbpedia.TelevisionPersonality"
+	"dbpedia.Chancellor"
+	"dbpedia.FormerMunicipality"
+	"dbpedia.HistoricBuilding"
+	"dbpedia.Curler"
+	"dbpedia.BusinessPerson"
+	"dbpedia.EducationalInstitution"
+	"dbpedia.NordicCombined"
+	"dbpedia.NationalCollegiateAthleticAssociationAthlete"
+	"dbpedia.LawFirm"
+	"dbpedia.SoccerClub"
+	"dbpedia.Lymph"
+	"dbpedia.BaseballSeason"
+	"dbpedia.Project"
+	"dbpedia.LineOfFashion"
+	"dbpedia.CollectionOfValuables"
+	"dbpedia.WindMotor"
+	"dbpedia.Instrumentalist"
+	"dbpedia.Presenter"
+	"dbpedia.SpaceStation"
+	"dbpedia.Arrondissement"
+	"dbpedia.Jockey"
+	"dbpedia.PersonalEvent"
+	"dbpedia.Pyramid"
+	"dbpedia.Engineer"
+	"dbpedia.Drug"
+	"dbpedia.HistoricalCountry"
+	"dbpedia.MountainRange"
+	"dbpedia.Actor"
+	"dbpedia.TelevisionEpisode"
+	"dbpedia.BasketballPlayer"
+	"dbpedia.Cricketer"
+	"dbpedia.MilitaryConflict"
+	"dbpedia.BoxingCategory"
+	"dbpedia.Casino"
+	"dbpedia.Software"
+	"dbpedia.Canoeist"
+	"dbpedia.Garden"
+	"dbpedia.SportsLeague" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.NaturalEvent" -> "dbpedia.Event" [label="is-a"]
+	"dbpedia.Event" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Province" -> "dbpedia.GovernmentalAdministrativeRegion" [label="is-a"]
+	"dbpedia.GovernmentalAdministrativeRegion" -> "dbpedia.AdministrativeRegion" [label="is-a"]
+	"dbpedia.Crater" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.SportsSeason" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Person" -> "dbpedia.Agent" [label="is-a"]
+	"dbpedia.TimePeriod" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Engine" -> "dbpedia.Device" [label="is-a"]
+	"dbpedia.Biomolecule" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Writer" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.ArchitecturalStructure" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.EducationalInstitution" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.AnatomicalStructure" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Work" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Infrastructure" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Territory" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.PopulatedPlace" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.SocietalEvent" -> "dbpedia.Event" [label="is-a"]
+	"dbpedia.TopicalConcept" -> "owl.Thing" [label="is-a"]
+	"dbpedia.RaceTrack" -> "dbpedia.SportFacility" [label="is-a"]
+	"dbpedia.Artist" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.WinterSportPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Organisation" -> "dbpedia.Agent" [label="is-a"]
+	"dbpedia.SportsEvent" -> "dbpedia.SocietalEvent" [label="is-a"]
+	"dbpedia.GeneLocation" -> "owl.Thing" [label="is-a"]
+	"dbpedia.WrittenWork" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.Beverage" -> "dbpedia.Food" [label="is-a"]
+	"dbpedia.Food" -> "owl.Thing" [label="is-a"]
+	"dbpedia.MeanOfTransportation" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Building" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Species" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Athlete" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Animal" -> "dbpedia.Eukaryote" [label="is-a"]
+	"dbpedia.Department" -> "dbpedia.GovernmentalAdministrativeRegion" [label="is-a"]
+	"dbpedia.Place" -> "owl.Thing" [label="is-a"]
+	"dbpedia.SportsTeam" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.AmusementParkAttraction" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Genre" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.FloweringPlant" -> "dbpedia.Plant" [label="is-a"]
+	"dbpedia.Plant" -> "dbpedia.Eukaryote" [label="is-a"]
+	"dbpedia.BritishRoyalty" -> "dbpedia.Royalty" [label="is-a"]
+	"dbpedia.SportCompetitionResult" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Tower" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Cleric" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Type" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.Settlement" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.ReligiousBuilding" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.MotorcycleRider" -> "dbpedia.MotorsportRacer" [label="is-a"]
+	"dbpedia.MotorsportRacer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.ClericalAdministrativeRegion" -> "dbpedia.AdministrativeRegion" [label="is-a"]
+	"dbpedia.AdministrativeRegion" -> "dbpedia.Region" [label="is-a"]
+	"dbpedia.Company" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.PowerStation" -> "dbpedia.Infrastructure" [label="is-a"]
+	"dbpedia.PersonalEvent" -> "dbpedia.LifeCycleEvent" [label="is-a"]
+	"dbpedia.Name" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Wrestler" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.RacingDriver" -> "dbpedia.MotorsportRacer" [label="is-a"]
+	"dbpedia.Instrumentalist" -> "dbpedia.MusicalArtist" [label="is-a"]
+	"dbpedia.MusicalArtist" -> "dbpedia.Artist" [label="is-a"]
+	"dbpedia.SportFacility" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.District" -> "dbpedia.GovernmentalAdministrativeRegion" [label="is-a"]
+	"dbpedia.Tournament" -> "dbpedia.SportsEvent" [label="is-a"]
+	"dbpedia.Activity" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Actor" -> "dbpedia.Artist" [label="is-a"]
+	"dbpedia.GridironFootballPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Device" -> "owl.Thing" [label="is-a"]
+	"dbpedia.TheologicalConcept" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.MusicalWork" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.RouteOfTransportation" -> "dbpedia.Infrastructure" [label="is-a"]
+	"dbpedia.Mill" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Coach" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.City" -> "dbpedia.Settlement" [label="is-a"]
+	"dbpedia.Software" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.Wine" -> "dbpedia.Beverage" [label="is-a"]
+	"dbpedia.Politician" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Mine" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.Camera" -> "dbpedia.Device" [label="is-a"]
+	"dbpedia.Group" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.Country" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.Race" -> "dbpedia.SportsEvent" [label="is-a"]
+	"dbpedia.PeriodicalLiterature" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.CelestialBody" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.Comic" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.OrganisationMember" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Case" -> "dbpedia.UnitOfWork" [label="is-a"]
+	"dbpedia.UnitOfWork" -> "owl.Thing" [label="is-a"]
+	"dbpedia.BodyOfWater" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.Boxer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.FictionalCharacter" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Island" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.Swarm" -> "dbpedia.CelestialBody" [label="is-a"]
+	"dbpedia.NaturalPlace" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.Monument" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.Gene" -> "dbpedia.Biomolecule" [label="is-a"]
+	"dbpedia.Stream" -> "dbpedia.BodyOfWater" [label="is-a"]
+	"dbpedia.Non-ProfitOrganisation" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.SportsManager" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Database" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.LegalCase" -> "dbpedia.Case" [label="is-a"]
+	"dbpedia.Broadcaster" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.TelevisionPersonality" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Artwork" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.VolleyballPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Region" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.Novel" -> "dbpedia.Book" [label="is-a"]
+	"dbpedia.SnookerPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.PersonFunction" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Scientist" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Presenter" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.ChemicalSubstance" -> "owl.Thing" [label="is-a"]
+	"dbpedia.SportsTeamSeason" -> "dbpedia.SportsSeason" [label="is-a"]
+	"dbpedia.Annotation" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.Satellite" -> "dbpedia.CelestialBody" [label="is-a"]
+	"dbpedia.SoccerClub" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.Horse" -> "dbpedia.Mammal" [label="is-a"]
+	"dbpedia.Mammal" -> "dbpedia.Animal" [label="is-a"]
+	"dbpedia.Eukaryote" -> "dbpedia.Species" [label="is-a"]
+	"dbpedia.SkiArea" -> "dbpedia.SportFacility" [label="is-a"]
+	"dbpedia.Instrument" -> "dbpedia.Device" [label="is-a"]
+	"dbpedia.On-SiteTransportation" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.Venue" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Royalty" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Family" -> "dbpedia.Agent" [label="is-a"]
+	"dbpedia.Agent" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Sport" -> "dbpedia.Activity" [label="is-a"]
+	"dbpedia.Station" -> "dbpedia.Infrastructure" [label="is-a"]
+	"dbpedia.Olympics" -> "dbpedia.SportsEvent" [label="is-a"]
+	"dbpedia.Song" -> "dbpedia.MusicalWork" [label="is-a"]
+	"dbpedia.SportsClub" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.Document" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.Cartoon" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.Book" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.CollectionOfValuables" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.Game" -> "dbpedia.Activity" [label="is-a"]
+	"dbpedia.ReligiousOrganisation" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.LifeCycleEvent" -> "dbpedia.Event" [label="is-a"]
+	"dbpedia.Competition" -> "dbpedia.Event" [label="is-a"]
+	"dbpedia.Project" -> "dbpedia.UnitOfWork" [label="is-a"]
+	"dbpedia.FootballLeagueSeason" -> "dbpedia.SportsTeamSeason" [label="is-a"]
+	"dbpedia.Award" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Municipality" -> "dbpedia.GovernmentalAdministrativeRegion" [label="is-a"]
+	"dbpedia.Star" -> "dbpedia.CelestialBody" [label="is-a"]
+	"dbpedia.Boxing" -> "dbpedia.Sport" [label="is-a"]
+	"dbpedia.ComicsCharacter" -> "dbpedia.FictionalCharacter" [label="is-a"]
+	"dbpedia.Image" -> "dbpedia.Document" [label="is-a"]
+	"dbpedia.Murderer" -> "dbpedia.Criminal" [label="is-a"]
+	"dbpedia.Criminal" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.List" -> "owl.Thing" [label="is-a"]
+	"dbpedia.Aircraft" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.BasketballLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.CyclingLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.CurlingLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.SpeedwayLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.VideogamesLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.MotorcycleRacingLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.SoccerLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.IceHockeyLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.CanadianFootballLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.VolleyballLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.BowlingLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.GolfLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.HandballLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.FieldHockeyLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.InlineHockeyLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.BaseballLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.PaintballLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.LacrosseLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.FormulaOneRacing" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.AmericanFootballLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.AustralianFootballLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.BoxingLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.RadioControlledRacingLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.TennisLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.RugbyLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.PoloLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.AutoRacingLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.MixedMartialArtsLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.SoftballLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.CricketLeague" -> "dbpedia.SportsLeague" [label="is-a"]
+	"dbpedia.Earthquake" -> "dbpedia.NaturalEvent" [label="is-a"]
+	"dbpedia.StormSurge" -> "dbpedia.NaturalEvent" [label="is-a"]
+	"dbpedia.SolarEclipse" -> "dbpedia.NaturalEvent" [label="is-a"]
+	"dbpedia.HistoricalProvince" -> "dbpedia.Province" [label="is-a"]
+	"dbpedia.Regency" -> "dbpedia.GovernmentalAdministrativeRegion" [label="is-a"]
+	"dbpedia.SubMunicipality" -> "dbpedia.GovernmentalAdministrativeRegion" [label="is-a"]
+	"dbpedia.Prefecture" -> "dbpedia.GovernmentalAdministrativeRegion" [label="is-a"]
+	"dbpedia.Arrondissement" -> "dbpedia.GovernmentalAdministrativeRegion" [label="is-a"]
+	"dbpedia.DistrictWaterBoard" -> "dbpedia.GovernmentalAdministrativeRegion" [label="is-a"]
+	"dbpedia.MicroRegion" -> "dbpedia.GovernmentalAdministrativeRegion" [label="is-a"]
+	"dbpedia.LunarCrater" -> "dbpedia.Crater" [label="is-a"]
+	"dbpedia.MotorsportSeason" -> "dbpedia.SportsSeason" [label="is-a"]
+	"dbpedia.MilitaryPerson" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Archeologist" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.TheatreDirector" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Religious" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.RomanEmperor" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Engineer" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Farmer" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.BusinessPerson" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Producer" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Psychologist" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Chef" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Philosopher" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Monarch" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.PlayboyPlaymate" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.BeautyQueen" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Referee" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Ambassador" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Lawyer" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.MovieDirector" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Model" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Aristocrat" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Egyptologist" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Architect" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Judge" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Economist" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Journalist" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.HorseTrainer" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Orphan" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.PoliticianSpouse" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Linguist" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.TelevisionDirector" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.MemberResistanceMovement" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Celebrity" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Noble" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.Astronaut" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.OfficeHolder" -> "dbpedia.Person" [label="is-a"]
+	"dbpedia.ProtohistoricalPeriod" -> "dbpedia.TimePeriod" [label="is-a"]
+	"dbpedia.YearInSpaceflight" -> "dbpedia.TimePeriod" [label="is-a"]
+	"dbpedia.Year" -> "dbpedia.TimePeriod" [label="is-a"]
+	"dbpedia.PrehistoricalPeriod" -> "dbpedia.TimePeriod" [label="is-a"]
+	"dbpedia.HistoricalPeriod" -> "dbpedia.TimePeriod" [label="is-a"]
+	"dbpedia.GeologicalPeriod" -> "dbpedia.TimePeriod" [label="is-a"]
+	"dbpedia.CareerStation" -> "dbpedia.TimePeriod" [label="is-a"]
+	"dbpedia.PeriodOfArtisticStyle" -> "dbpedia.TimePeriod" [label="is-a"]
+	"dbpedia.AutomobileEngine" -> "dbpedia.Engine" [label="is-a"]
+	"dbpedia.RocketEngine" -> "dbpedia.Engine" [label="is-a"]
+	"dbpedia.Enzyme" -> "dbpedia.Biomolecule" [label="is-a"]
+	"dbpedia.Protein" -> "dbpedia.Biomolecule" [label="is-a"]
+	"dbpedia.Lipid" -> "dbpedia.Biomolecule" [label="is-a"]
+	"dbpedia.Polysaccharide" -> "dbpedia.Biomolecule" [label="is-a"]
+	"dbpedia.SongWriter" -> "dbpedia.Writer" [label="is-a"]
+	"dbpedia.ScreenWriter" -> "dbpedia.Writer" [label="is-a"]
+	"dbpedia.MusicComposer" -> "dbpedia.Writer" [label="is-a"]
+	"dbpedia.PlayWright" -> "dbpedia.Writer" [label="is-a"]
+	"dbpedia.Historian" -> "dbpedia.Writer" [label="is-a"]
+	"dbpedia.Poet" -> "dbpedia.Writer" [label="is-a"]
+	"dbpedia.Square" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Tunnel" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Gate" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Shrine" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Pyramid" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Arena" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.Zoo" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.MilitaryStructure" -> "dbpedia.ArchitecturalStructure" [label="is-a"]
+	"dbpedia.University" -> "dbpedia.EducationalInstitution" [label="is-a"]
+	"dbpedia.School" -> "dbpedia.EducationalInstitution" [label="is-a"]
+	"dbpedia.College" -> "dbpedia.EducationalInstitution" [label="is-a"]
+	"dbpedia.Library" -> "dbpedia.EducationalInstitution" [label="is-a"]
+	"dbpedia.Brain" -> "dbpedia.AnatomicalStructure" [label="is-a"]
+	"dbpedia.Muscle" -> "dbpedia.AnatomicalStructure" [label="is-a"]
+	"dbpedia.Vein" -> "dbpedia.AnatomicalStructure" [label="is-a"]
+	"dbpedia.Nerve" -> "dbpedia.AnatomicalStructure" [label="is-a"]
+	"dbpedia.Ligament" -> "dbpedia.AnatomicalStructure" [label="is-a"]
+	"dbpedia.Artery" -> "dbpedia.AnatomicalStructure" [label="is-a"]
+	"dbpedia.Bone" -> "dbpedia.AnatomicalStructure" [label="is-a"]
+	"dbpedia.Lymph" -> "dbpedia.AnatomicalStructure" [label="is-a"]
+	"dbpedia.Embryology" -> "dbpedia.AnatomicalStructure" [label="is-a"]
+	"dbpedia.TelevisionShow" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.LineOfFashion" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.TelevisionEpisode" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.TelevisionSeason" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.Film" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.RadioProgram" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.Website" -> "dbpedia.Work" [label="is-a"]
+	"dbpedia.LaunchPad" -> "dbpedia.Infrastructure" [label="is-a"]
+	"dbpedia.Airport" -> "dbpedia.Infrastructure" [label="is-a"]
+	"dbpedia.Port" -> "dbpedia.Infrastructure" [label="is-a"]
+	"dbpedia.Lock" -> "dbpedia.Infrastructure" [label="is-a"]
+	"dbpedia.RestArea" -> "dbpedia.Infrastructure" [label="is-a"]
+	"dbpedia.Dam" -> "dbpedia.Infrastructure" [label="is-a"]
+	"dbpedia.OldTerritory" -> "dbpedia.Territory" [label="is-a"]
+	"dbpedia.GatedCommunity" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.Agglomeration" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.Community" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.Street" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.Intercommunality" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.Locality" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.Continent" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.State" -> "dbpedia.PopulatedPlace" [label="is-a"]
+	"dbpedia.MusicFestival" -> "dbpedia.SocietalEvent" [label="is-a"]
+	"dbpedia.MilitaryConflict" -> "dbpedia.SocietalEvent" [label="is-a"]
+	"dbpedia.FilmFestival" -> "dbpedia.SocietalEvent" [label="is-a"]
+	"dbpedia.Rebellion" -> "dbpedia.SocietalEvent" [label="is-a"]
+	"dbpedia.Attack" -> "dbpedia.SocietalEvent" [label="is-a"]
+	"dbpedia.Meeting" -> "dbpedia.SocietalEvent" [label="is-a"]
+	"dbpedia.SpaceMission" -> "dbpedia.SocietalEvent" [label="is-a"]
+	"dbpedia.Convention" -> "dbpedia.SocietalEvent" [label="is-a"]
+	"dbpedia.Election" -> "dbpedia.SocietalEvent" [label="is-a"]
+	"dbpedia.Tax" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.CardinalDirection" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.ScientificConcept" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.PoliticalConcept" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.Taxon" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.Fashion" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.SystemOfLaw" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.Ideology" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.Standard" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.PhilosophicalConcept" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.MathematicalConcept" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.AcademicSubject" -> "dbpedia.TopicalConcept" [label="is-a"]
+	"dbpedia.Racecourse" -> "dbpedia.RaceTrack" [label="is-a"]
+	"dbpedia.Dancer" -> "dbpedia.Artist" [label="is-a"]
+	"dbpedia.Painter" -> "dbpedia.Artist" [label="is-a"]
+	"dbpedia.Comedian" -> "dbpedia.Artist" [label="is-a"]
+	"dbpedia.ComicsCreator" -> "dbpedia.Artist" [label="is-a"]
+	"dbpedia.FashionDesigner" -> "dbpedia.Artist" [label="is-a"]
+	"dbpedia.Sculptor" -> "dbpedia.Artist" [label="is-a"]
+	"dbpedia.Humorist" -> "dbpedia.Artist" [label="is-a"]
+	"dbpedia.Photographer" -> "dbpedia.Artist" [label="is-a"]
+	"dbpedia.IceHockeyPlayer" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.Biathlete" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.FigureSkater" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.NordicCombined" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.SpeedSkater" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.BobsleighAthlete" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.Skater" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.Curler" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.Skier" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.Ski_jumper" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.CrossCountrySkier" -> "dbpedia.WinterSportPlayer" [label="is-a"]
+	"dbpedia.PublicTransitSystem" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.EmployersOrganisation" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.InternationalOrganisation" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.PoliticalParty" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.GovernmentAgency" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.Parliament" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.SambaSchool" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.Legislature" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.MilitaryUnit" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.GeopoliticalOrganisation" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.TermOfOffice" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.TradeUnion" -> "dbpedia.Organisation" [label="is-a"]
+	"dbpedia.FootballMatch" -> "dbpedia.SportsEvent" [label="is-a"]
+	"dbpedia.InternationalFootballLeagueEvent" -> "dbpedia.SportsEvent" [label="is-a"]
+	"dbpedia.NationalFootballLeagueEvent" -> "dbpedia.SportsEvent" [label="is-a"]
+	"dbpedia.GrandPrix" -> "dbpedia.SportsEvent" [label="is-a"]
+	"dbpedia.CyclingCompetition" -> "dbpedia.SportsEvent" [label="is-a"]
+	"dbpedia.WrestlingEvent" -> "dbpedia.SportsEvent" [label="is-a"]
+	"dbpedia.MixedMartialArtsEvent" -> "dbpedia.SportsEvent" [label="is-a"]
+	"dbpedia.MouseGeneLocation" -> "dbpedia.GeneLocation" [label="is-a"]
+	"dbpedia.HumanGeneLocation" -> "dbpedia.GeneLocation" [label="is-a"]
+	"dbpedia.StatedResolution" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.Law" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.Poem" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.Drama" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.Play" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.Article" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.Quote" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.MultiVolumePublication" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.Resume" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.Letter" -> "dbpedia.WrittenWork" [label="is-a"]
+	"dbpedia.Vodka" -> "dbpedia.Beverage" [label="is-a"]
+	"dbpedia.Beer" -> "dbpedia.Beverage" [label="is-a"]
+	"dbpedia.Cheese" -> "dbpedia.Food" [label="is-a"]
+	"dbpedia.SpaceShuttle" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.MilitaryVehicle" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.Locomotive" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.Automobile" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.Rocket" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.Train" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.Motorcycle" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.Ship" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.SpaceStation" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.Spacecraft" -> "dbpedia.MeanOfTransportation" [label="is-a"]
+	"dbpedia.Prison" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.Hospital" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.Museum" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.Factory" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.Hotel" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.Library" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.Restaurant" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.Skyscraper" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.ShoppingMall" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.HistoricBuilding" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.Castle" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.Casino" -> "dbpedia.Building" [label="is-a"]
+	"dbpedia.Archaea" -> "dbpedia.Species" [label="is-a"]
+	"dbpedia.Bacteria" -> "dbpedia.Species" [label="is-a"]
+	"dbpedia.HandballPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Cricketer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Jockey" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.HighDiver" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.TeamMember" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.LacrossePlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.TennisPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.BullFighter" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Fencer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.SoccerPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Surfer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Rower" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.TableTennisPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.NationalCollegiateAthleticAssociationAthlete" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.ArcherPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.WaterPoloPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Swimmer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.AthleticsPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.GolfPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.SquashPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.PokerPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.BadmintonPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.ChessPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.RugbyPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.DartsPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.NetballPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.MartialArtist" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Gymnast" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Canoeist" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.GaelicGamesPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.HorseRider" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.BaseballPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Cyclist" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Bodybuilder" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.AustralianRulesFootballPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.BasketballPlayer" -> "dbpedia.Athlete" [label="is-a"]
+	"dbpedia.Arachnid" -> "dbpedia.Animal" [label="is-a"]
+	"dbpedia.Fish" -> "dbpedia.Animal" [label="is-a"]
+	"dbpedia.Insect" -> "dbpedia.Animal" [label="is-a"]
+	"dbpedia.Reptile" -> "dbpedia.Animal" [label="is-a"]
+	"dbpedia.Mollusca" -> "dbpedia.Animal" [label="is-a"]
+	"dbpedia.Bird" -> "dbpedia.Animal" [label="is-a"]
+	"dbpedia.Amphibian" -> "dbpedia.Animal" [label="is-a"]
+	"dbpedia.Crustacean" -> "dbpedia.Animal" [label="is-a"]
+	"dbpedia.OverseasDepartment" -> "dbpedia.Department" [label="is-a"]
+	"dbpedia.Park" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.SiteOfSpecialScientificInterest" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.ConcentrationCamp" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.ProtectedArea" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.Cemetery" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.Garden" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.WorldHeritageSite" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.CountrySeat" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.WineRegion" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.HistoricPlace" -> "dbpedia.Place" [label="is-a"]
+	"dbpedia.CyclingTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.SpeedwayTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.CanadianFootballTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.BaseballTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.BasketballTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.AmericanFootballTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.AustralianFootballTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.HockeyTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.HandballTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.CricketTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.FormulaOneTeam" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.RugbyClub" -> "dbpedia.SportsTeam" [label="is-a"]
+	"dbpedia.WaterRide" -> "dbpedia.AmusementParkAttraction" [label="is-a"]
+	"dbpedia.RollerCoaster" -> "dbpedia.AmusementParkAttraction" [label="is-a"]
+	"dbpedia.ArtisticGenre" -> "dbpedia.Genre" [label="is-a"]
+	"dbpedia.MusicGenre" -> "dbpedia.Genre" [label="is-a"]
+	"dbpedia.MovieGenre" -> "dbpedia.Genre" [label="is-a"]
+	"dbpedia.LiteraryGenre" -> "dbpedia.Genre" [label="is-a"]
+	"dbpedia.Grape" -> "dbpedia.FloweringPlant" [label="is-a"]
+	"dbpedia.Gnetophytes" -> "dbpedia.Plant" [label="is-a"]
+	"dbpedia.Conifer" -> "dbpedia.Plant" [label="is-a"]
+	"dbpedia.Fern" -> "dbpedia.Plant" [label="is-a"]
+	"dbpedia.Ginkgo" -> "dbpedia.Plant" [label="is-a"]
+	"dbpedia.ClubMoss" -> "dbpedia.Plant" [label="is-a"]
+	"dbpedia.Moss" -> "dbpedia.Plant" [label="is-a"]
+	"dbpedia.GreenAlga" -> "dbpedia.Plant" [label="is-a"]
+	"dbpedia.CultivatedVariety" -> "dbpedia.Plant" [label="is-a"]
+	"dbpedia.Cycad" -> "dbpedia.Plant" [label="is-a"]
+	"dbpedia.Baronet" -> "dbpedia.BritishRoyalty" [label="is-a"]
+	"dbpedia.SnookerWorldRanking" -> "dbpedia.SportCompetitionResult" [label="is-a"]
+	"dbpedia.OlympicResult" -> "dbpedia.SportCompetitionResult" [label="is-a"]
+	"dbpedia.Lighthouse" -> "dbpedia.Tower" [label="is-a"]
+	"dbpedia.WaterTower" -> "dbpedia.Tower" [label="is-a"]
+	"dbpedia.ChristianPatriarch" -> "dbpedia.Cleric" [label="is-a"]
+	"dbpedia.Cardinal" -> "dbpedia.Cleric" [label="is-a"]
+	"dbpedia.Vicar" -> "dbpedia.Cleric" [label="is-a"]
+	"dbpedia.Priest" -> "dbpedia.Cleric" [label="is-a"]
+	"dbpedia.Saint" -> "dbpedia.Cleric" [label="is-a"]
+	"dbpedia.Pope" -> "dbpedia.Cleric" [label="is-a"]
+	"dbpedia.ChristianBishop" -> "dbpedia.Cleric" [label="is-a"]
+	"dbpedia.GovernmentType" -> "dbpedia.Type" [label="is-a"]
+	"dbpedia.DocumentType" -> "dbpedia.Type" [label="is-a"]
+	"dbpedia.Town" -> "dbpedia.Settlement" [label="is-a"]
+	"dbpedia.HistoricalSettlement" -> "dbpedia.Settlement" [label="is-a"]
+	"dbpedia.Village" -> "dbpedia.Settlement" [label="is-a"]
+	"dbpedia.CityDistrict" -> "dbpedia.Settlement" [label="is-a"]
+	"dbpedia.Church" -> "dbpedia.ReligiousBuilding" [label="is-a"]
+	"dbpedia.Mosque" -> "dbpedia.ReligiousBuilding" [label="is-a"]
+	"dbpedia.Monastery" -> "dbpedia.ReligiousBuilding" [label="is-a"]
+	"dbpedia.Synagogue" -> "dbpedia.ReligiousBuilding" [label="is-a"]
+	"dbpedia.Abbey" -> "dbpedia.ReligiousBuilding" [label="is-a"]
+	"dbpedia.Temple" -> "dbpedia.ReligiousBuilding" [label="is-a"]
+	"dbpedia.MotocycleRacer" -> "dbpedia.MotorcycleRider" [label="is-a"]
+	"dbpedia.SpeedwayRider" -> "dbpedia.MotorcycleRider" [label="is-a"]
+	"dbpedia.Deanery" -> "dbpedia.ClericalAdministrativeRegion" [label="is-a"]
+	"dbpedia.Diocese" -> "dbpedia.ClericalAdministrativeRegion" [label="is-a"]
+	"dbpedia.Parish" -> "dbpedia.ClericalAdministrativeRegion" [label="is-a"]
+	"dbpedia.BusCompany" -> "dbpedia.Company" [label="is-a"]
+	"dbpedia.LawFirm" -> "dbpedia.Company" [label="is-a"]
+	"dbpedia.Winery" -> "dbpedia.Company" [label="is-a"]
+	"dbpedia.RecordLabel" -> "dbpedia.Company" [label="is-a"]
+	"dbpedia.Brewery" -> "dbpedia.Company" [label="is-a"]
+	"dbpedia.Airline" -> "dbpedia.Company" [label="is-a"]
+	"dbpedia.Publisher" -> "dbpedia.Company" [label="is-a"]
+	"dbpedia.Bank" -> "dbpedia.Company" [label="is-a"]
+	"dbpedia.Caterer" -> "dbpedia.Company" [label="is-a"]
+	"dbpedia.NuclearPowerStation" -> "dbpedia.PowerStation" [label="is-a"]
+	"dbpedia.Birth" -> "dbpedia.PersonalEvent" [label="is-a"]
+	"dbpedia.Death" -> "dbpedia.PersonalEvent" [label="is-a"]
+	"dbpedia.Divorce" -> "dbpedia.PersonalEvent" [label="is-a"]
+	"dbpedia.Marriage" -> "dbpedia.PersonalEvent" [label="is-a"]
+	"dbpedia.GivenName" -> "dbpedia.Name" [label="is-a"]
+	"dbpedia.Surname" -> "dbpedia.Name" [label="is-a"]
+	"dbpedia.SumoWrestler" -> "dbpedia.Wrestler" [label="is-a"]
+	"dbpedia.FormulaOneRacer" -> "dbpedia.RacingDriver" [label="is-a"]
+	"dbpedia.DTMRacer" -> "dbpedia.RacingDriver" [label="is-a"]
+	"dbpedia.RallyDriver" -> "dbpedia.RacingDriver" [label="is-a"]
+	"dbpedia.NascarDriver" -> "dbpedia.RacingDriver" [label="is-a"]
+	"dbpedia.Guitarist" -> "dbpedia.Instrumentalist" [label="is-a"]
+	"dbpedia.BackScene" -> "dbpedia.MusicalArtist" [label="is-a"]
+	"dbpedia.ClassicalMusicArtist" -> "dbpedia.MusicalArtist" [label="is-a"]
+	"dbpedia.Singer" -> "dbpedia.MusicalArtist" [label="is-a"]
+	"dbpedia.MusicDirector" -> "dbpedia.MusicalArtist" [label="is-a"]
+	"dbpedia.CricketGround" -> "dbpedia.SportFacility" [label="is-a"]
+	"dbpedia.Stadium" -> "dbpedia.SportFacility" [label="is-a"]
+	"dbpedia.GolfCourse" -> "dbpedia.SportFacility" [label="is-a"]
+	"dbpedia.HistoricalDistrict" -> "dbpedia.District" [label="is-a"]
+	"dbpedia.GolfTournament" -> "dbpedia.Tournament" [label="is-a"]
+	"dbpedia.WomensTennisAssociationTournament" -> "dbpedia.Tournament" [label="is-a"]
+	"dbpedia.TennisTournament" -> "dbpedia.Tournament" [label="is-a"]
+	"dbpedia.SoccerTournament" -> "dbpedia.Tournament" [label="is-a"]
+	"dbpedia.Sales" -> "dbpedia.Activity" [label="is-a"]
+	"dbpedia.AdultActor" -> "dbpedia.Actor" [label="is-a"]
+	"dbpedia.VoiceActor" -> "dbpedia.Actor" [label="is-a"]
+	"dbpedia.AmericanFootballPlayer" -> "dbpedia.GridironFootballPlayer" [label="is-a"]
+	"dbpedia.CanadianFootballPlayer" -> "dbpedia.GridironFootballPlayer" [label="is-a"]
+	"dbpedia.InformationAppliance" -> "dbpedia.Device" [label="is-a"]
+	"dbpedia.MobilePhone" -> "dbpedia.Device" [label="is-a"]
+	"dbpedia.Weapon" -> "dbpedia.Device" [label="is-a"]
+	"dbpedia.ChristianDoctrine" -> "dbpedia.TheologicalConcept" [label="is-a"]
+	"dbpedia.NationalAnthem" -> "dbpedia.MusicalWork" [label="is-a"]
+	"dbpedia.Opera" -> "dbpedia.MusicalWork" [label="is-a"]
+	"dbpedia.Album" -> "dbpedia.MusicalWork" [label="is-a"]
+	"dbpedia.Musical" -> "dbpedia.MusicalWork" [label="is-a"]
+	"dbpedia.ClassicalMusicComposition" -> "dbpedia.MusicalWork" [label="is-a"]
+	"dbpedia.ArtistDiscography" -> "dbpedia.MusicalWork" [label="is-a"]
+	"dbpedia.Single" -> "dbpedia.MusicalWork" [label="is-a"]
+	"dbpedia.RoadJunction" -> "dbpedia.RouteOfTransportation" [label="is-a"]
+	"dbpedia.WaterwayTunnel" -> "dbpedia.RouteOfTransportation" [label="is-a"]
+	"dbpedia.Road" -> "dbpedia.RouteOfTransportation" [label="is-a"]
+	"dbpedia.RailwayLine" -> "dbpedia.RouteOfTransportation" [label="is-a"]
+	"dbpedia.RailwayTunnel" -> "dbpedia.RouteOfTransportation" [label="is-a"]
+	"dbpedia.Bridge" -> "dbpedia.RouteOfTransportation" [label="is-a"]
+	"dbpedia.RoadTunnel" -> "dbpedia.RouteOfTransportation" [label="is-a"]
+	"dbpedia.Treadmill" -> "dbpedia.Mill" [label="is-a"]
+	"dbpedia.Watermill" -> "dbpedia.Mill" [label="is-a"]
+	"dbpedia.WindMotor" -> "dbpedia.Mill" [label="is-a"]
+	"dbpedia.Windmill" -> "dbpedia.Mill" [label="is-a"]
+	"dbpedia.VolleyballCoach" -> "dbpedia.Coach" [label="is-a"]
+	"dbpedia.CollegeCoach" -> "dbpedia.Coach" [label="is-a"]
+	"dbpedia.AmericanFootballCoach" -> "dbpedia.Coach" [label="is-a"]
+	"dbpedia.Capital" -> "dbpedia.City" [label="is-a"]
+	"dbpedia.CapitalOfRegion" -> "dbpedia.City" [label="is-a"]
+	"dbpedia.ProgrammingLanguage" -> "dbpedia.Software" [label="is-a"]
+	"dbpedia.VideoGame" -> "dbpedia.Software" [label="is-a"]
+	"dbpedia.ControlledDesignationOfOriginWine" -> "dbpedia.Wine" [label="is-a"]
+	"dbpedia.President" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.PrimeMinister" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.Deputy" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.Congressman" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.Senator" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.VicePresident" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.VicePrimeMinister" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.Mayor" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.Lieutenant" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.MemberOfParliament" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.Governor" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.Chancellor" -> "dbpedia.Politician" [label="is-a"]
+	"dbpedia.CoalPit" -> "dbpedia.Mine" [label="is-a"]
+	"dbpedia.DigitalCamera" -> "dbpedia.Camera" [label="is-a"]
+	"dbpedia.Band" -> "dbpedia.Group" [label="is-a"]
+	"dbpedia.ComedyGroup" -> "dbpedia.Group" [label="is-a"]
+	"dbpedia.HistoricalCountry" -> "dbpedia.Country" [label="is-a"]
+	"dbpedia.HorseRace" -> "dbpedia.Race" [label="is-a"]
+	"dbpedia.MotorRace" -> "dbpedia.Race" [label="is-a"]
+	"dbpedia.CyclingRace" -> "dbpedia.Race" [label="is-a"]
+	"dbpedia.Magazine" -> "dbpedia.PeriodicalLiterature" [label="is-a"]
+	"dbpedia.Newspaper" -> "dbpedia.PeriodicalLiterature" [label="is-a"]
+	"dbpedia.AcademicJournal" -> "dbpedia.PeriodicalLiterature" [label="is-a"]
+	"dbpedia.UndergroundJournal" -> "dbpedia.PeriodicalLiterature" [label="is-a"]
+	"dbpedia.Galaxy" -> "dbpedia.CelestialBody" [label="is-a"]
+	"dbpedia.Planet" -> "dbpedia.CelestialBody" [label="is-a"]
+	"dbpedia.Constellation" -> "dbpedia.CelestialBody" [label="is-a"]
+	"dbpedia.Asteroid" -> "dbpedia.CelestialBody" [label="is-a"]
+	"dbpedia.Manhwa" -> "dbpedia.Comic" [label="is-a"]
+	"dbpedia.Manga" -> "dbpedia.Comic" [label="is-a"]
+	"dbpedia.ComicStrip" -> "dbpedia.Comic" [label="is-a"]
+	"dbpedia.Manhua" -> "dbpedia.Comic" [label="is-a"]
+	"dbpedia.SportsTeamMember" -> "dbpedia.OrganisationMember" [label="is-a"]
+	"dbpedia.Ocean" -> "dbpedia.BodyOfWater" [label="is-a"]
+	"dbpedia.Sea" -> "dbpedia.BodyOfWater" [label="is-a"]
+	"dbpedia.Bay" -> "dbpedia.BodyOfWater" [label="is-a"]
+	"dbpedia.Lake" -> "dbpedia.BodyOfWater" [label="is-a"]
+	"dbpedia.AmateurBoxer" -> "dbpedia.Boxer" [label="is-a"]
+	"dbpedia.NarutoCharacter" -> "dbpedia.FictionalCharacter" [label="is-a"]
+	"dbpedia.SoapCharacter" -> "dbpedia.FictionalCharacter" [label="is-a"]
+	"dbpedia.DisneyCharacter" -> "dbpedia.FictionalCharacter" [label="is-a"]
+	"dbpedia.MythologicalFigure" -> "dbpedia.FictionalCharacter" [label="is-a"]
+	"dbpedia.Atoll" -> "dbpedia.Island" [label="is-a"]
+	"dbpedia.Openswarm" -> "dbpedia.Swarm" [label="is-a"]
+	"dbpedia.Globularswarm" -> "dbpedia.Swarm" [label="is-a"]
+	"dbpedia.HotSpring" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.Valley" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.Volcano" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.Desert" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.MountainPass" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.Glacier" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.Archipelago" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.Beach" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.Mountain" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.Cave" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.MountainRange" -> "dbpedia.NaturalPlace" [label="is-a"]
+	"dbpedia.GraveMonument" -> "dbpedia.Monument" [label="is-a"]
+	"dbpedia.Memorial" -> "dbpedia.Monument" [label="is-a"]
+	"dbpedia.HumanGene" -> "dbpedia.Gene" [label="is-a"]
+	"dbpedia.MouseGene" -> "dbpedia.Gene" [label="is-a"]
+	"dbpedia.Canal" -> "dbpedia.Stream" [label="is-a"]
+	"dbpedia.River" -> "dbpedia.Stream" [label="is-a"]
+	"dbpedia.RecordOffice" -> "dbpedia.Non-ProfitOrganisation" [label="is-a"]
+	"dbpedia.SoccerManager" -> "dbpedia.SportsManager" [label="is-a"]
+	"dbpedia.BiologicalDatabase" -> "dbpedia.Database" [label="is-a"]
+	"dbpedia.SupremeCourtOfTheUnitedStatesCase" -> "dbpedia.LegalCase" [label="is-a"]
+	"dbpedia.RadioStation" -> "dbpedia.Broadcaster" [label="is-a"]
+	"dbpedia.BroadcastNetwork" -> "dbpedia.Broadcaster" [label="is-a"]
+	"dbpedia.TelevisionStation" -> "dbpedia.Broadcaster" [label="is-a"]
+	"dbpedia.Host" -> "dbpedia.TelevisionPersonality" [label="is-a"]
+	"dbpedia.Sculpture" -> "dbpedia.Artwork" [label="is-a"]
+	"dbpedia.Painting" -> "dbpedia.Artwork" [label="is-a"]
+	"dbpedia.BeachVolleyballPlayer" -> "dbpedia.VolleyballPlayer" [label="is-a"]
+	"dbpedia.NaturalRegion" -> "dbpedia.Region" [label="is-a"]
+	"dbpedia.HistoricalRegion" -> "dbpedia.Region" [label="is-a"]
+	"dbpedia.LightNovel" -> "dbpedia.Novel" [label="is-a"]
+	"dbpedia.SnookerChamp" -> "dbpedia.SnookerPlayer" [label="is-a"]
+	"dbpedia.Profession" -> "dbpedia.PersonFunction" [label="is-a"]
+	"dbpedia.PoliticalFunction" -> "dbpedia.PersonFunction" [label="is-a"]
+	"dbpedia.Entomologist" -> "dbpedia.Scientist" [label="is-a"]
+	"dbpedia.Biologist" -> "dbpedia.Scientist" [label="is-a"]
+	"dbpedia.Professor" -> "dbpedia.Scientist" [label="is-a"]
+	"dbpedia.Medician" -> "dbpedia.Scientist" [label="is-a"]
+	"dbpedia.TelevisionHost" -> "dbpedia.Presenter" [label="is-a"]
+	"dbpedia.RadioHost" -> "dbpedia.Presenter" [label="is-a"]
+	"dbpedia.Mineral" -> "dbpedia.ChemicalSubstance" [label="is-a"]
+	"dbpedia.Drug" -> "dbpedia.ChemicalSubstance" [label="is-a"]
+	"dbpedia.ChemicalElement" -> "dbpedia.ChemicalSubstance" [label="is-a"]
+	"dbpedia.ChemicalCompound" -> "dbpedia.ChemicalSubstance" [label="is-a"]
+	"dbpedia.SoccerClubSeason" -> "dbpedia.SportsTeamSeason" [label="is-a"]
+	"dbpedia.NCAATeamSeason" -> "dbpedia.SportsTeamSeason" [label="is-a"]
+	"dbpedia.BaseballSeason" -> "dbpedia.SportsTeamSeason" [label="is-a"]
+	"dbpedia.SoccerLeagueSeason" -> "dbpedia.SportsTeamSeason" [label="is-a"]
+	"dbpedia.Reference" -> "dbpedia.Annotation" [label="is-a"]
+	"dbpedia.ArtificialSatellite" -> "dbpedia.Satellite" [label="is-a"]
+	"dbpedia.NationalSoccerClub" -> "dbpedia.SoccerClub" [label="is-a"]
+	"dbpedia.RaceHorse" -> "dbpedia.Horse" [label="is-a"]
+	"dbpedia.Dog" -> "dbpedia.Mammal" [label="is-a"]
+	"dbpedia.Fungus" -> "dbpedia.Eukaryote" [label="is-a"]
+	"dbpedia.SkiResort" -> "dbpedia.SkiArea" [label="is-a"]
+	"dbpedia.Guitar" -> "dbpedia.Instrument" [label="is-a"]
+	"dbpedia.Organ" -> "dbpedia.Instrument" [label="is-a"]
+	"dbpedia.Escalator" -> "dbpedia.On-SiteTransportation" [label="is-a"]
+	"dbpedia.ConveyorSystem" -> "dbpedia.On-SiteTransportation" [label="is-a"]
+	"dbpedia.MovingWalkway" -> "dbpedia.On-SiteTransportation" [label="is-a"]
+	"dbpedia.Theatre" -> "dbpedia.Venue" [label="is-a"]
+	"dbpedia.NobleFamily" -> "dbpedia.Family" [label="is-a"]
+	"dbpedia.Employer" -> "dbpedia.Agent" [label="is-a"]
+	"dbpedia.Deity" -> "dbpedia.Agent" [label="is-a"]
+	"dbpedia.HorseRiding" -> "dbpedia.Sport" [label="is-a"]
+	"dbpedia.Athletics" -> "dbpedia.Sport" [label="is-a"]
+	"dbpedia.MetroStation" -> "dbpedia.Station" [label="is-a"]
+	"dbpedia.ElectricalSubstation" -> "dbpedia.Station" [label="is-a"]
+	"dbpedia.FillingStation" -> "dbpedia.Station" [label="is-a"]
+	"dbpedia.RailwayStation" -> "dbpedia.Station" [label="is-a"]
+	"dbpedia.OlympicEvent" -> "dbpedia.Olympics" [label="is-a"]
+	"dbpedia.EurovisionSongContestEntry" -> "dbpedia.Song" [label="is-a"]
+	"dbpedia.HockeyClub" -> "dbpedia.SportsClub" [label="is-a"]
+	"dbpedia.File" -> "dbpedia.Document" [label="is-a"]
+	"dbpedia.Sound" -> "dbpedia.Document" [label="is-a"]
+	"dbpedia.Anime" -> "dbpedia.Cartoon" [label="is-a"]
+	"dbpedia.HollywoodCartoon" -> "dbpedia.Cartoon" [label="is-a"]
+	"dbpedia.Archive" -> "dbpedia.CollectionOfValuables" [label="is-a"]
+	"dbpedia.BoardGame" -> "dbpedia.Game" [label="is-a"]
+	"dbpedia.CardGame" -> "dbpedia.Game" [label="is-a"]
+	"dbpedia.ClericalOrder" -> "dbpedia.ReligiousOrganisation" [label="is-a"]
+	"dbpedia.Contest" -> "dbpedia.Competition" [label="is-a"]
+	"dbpedia.ResearchProject" -> "dbpedia.Project" [label="is-a"]
+	"dbpedia.NationalFootballLeagueSeason" -> "dbpedia.FootballLeagueSeason" [label="is-a"]
+	"dbpedia.NobelPrize" -> "dbpedia.Award" [label="is-a"]
+	"dbpedia.Decoration" -> "dbpedia.Award" [label="is-a"]
+	"dbpedia.FormerMunicipality" -> "dbpedia.Municipality" [label="is-a"]
+	"dbpedia.BrownDwarf" -> "dbpedia.Star" [label="is-a"]
+	"dbpedia.BoxingStyle" -> "dbpedia.Boxing" [label="is-a"]
+	"dbpedia.BoxingCategory" -> "dbpedia.Boxing" [label="is-a"]
+	"dbpedia.AnimangaCharacter" -> "dbpedia.ComicsCharacter" [label="is-a"]
+	"dbpedia.StillImage" -> "dbpedia.Image" [label="is-a"]
+	"dbpedia.MovingImage" -> "dbpedia.Image" [label="is-a"]
+	"dbpedia.SerialKiller" -> "dbpedia.Murderer" [label="is-a"]
+	"dbpedia.TrackList" -> "dbpedia.List" [label="is-a"]
+	"dbpedia.MilitaryAircraft" -> "dbpedia.Aircraft" [label="is-a"]
+}

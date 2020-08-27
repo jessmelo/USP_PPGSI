@@ -1,0 +1,21 @@
+digraph G {
+	pad=3 rankdir=RL size="8,4"
+	node [fillcolor=lightgray shape=box style="rounded,filled"]
+	"automóvel"
+	trator
+	"ônibus"
+	leve
+	"caminhão"
+	pesado
+	motocicleta
+	bicicleta
+	"veículo"
+	leve -> "veículo" [label="is-a"]
+	pesado -> "veículo" [label="is-a"]
+	"automóvel" -> leve [label="is-a"]
+	motocicleta -> leve [label="is-a"]
+	bicicleta -> leve [label="is-a"]
+	"caminhão" -> pesado [label="is-a"]
+	"ônibus" -> pesado [label="is-a"]
+	trator -> pesado [label="is-a"]
+}

@@ -1,0 +1,41 @@
+digraph G {
+	pad=3 rankdir=RL size="8,4"
+	node [fillcolor=lightgray shape=box style="rounded,filled"]
+	"wine#.WineColor"
+	"wine#.LateHarvest"
+	"wine#.WineBody"
+	"wine#.Bordeaux"
+	"wine#.SweetRiesling"
+	"wine#.Sauternes"
+	"wine#.RedWine"
+	"food.PotableLiquid"
+	"owl.Thing"
+	"wine#.WineFlavor"
+	"wine#.EarlyHarvest"
+	"wine#.Port"
+	"wine#.WineTaste"
+	"wine#.Chianti"
+	"wine#.ItalianWine"
+	"wine#.WineSugar"
+	"wine#.Wine"
+	"wine#.DessertWine"
+	"wine#.WineDescriptor"
+	"wine#.Wine" -> "food.PotableLiquid" [label="is-a"]
+	"wine#.Bordeaux" -> "owl.Thing" [label="is-a"]
+	"wine#.WineDescriptor" -> "owl.Thing" [label="is-a"]
+	"wine#.WineTaste" -> "wine#.WineDescriptor" [label="is-a"]
+	"wine#.DessertWine" -> "wine#.Wine" [label="is-a"]
+	"wine#.LateHarvest" -> "wine#.Wine" [label="is-a"]
+	"wine#.RedWine" -> "owl.Thing" [label="is-a"]
+	"wine#.ItalianWine" -> "owl.Thing" [label="is-a"]
+	"wine#.EarlyHarvest" -> "wine#.Wine" [label="is-a"]
+	"wine#.Sauternes" -> "wine#.Bordeaux" [label="is-a"]
+	"wine#.WineColor" -> "wine#.WineDescriptor" [label="is-a"]
+	"wine#.WineSugar" -> "wine#.WineTaste" [label="is-a"]
+	"wine#.WineBody" -> "wine#.WineTaste" [label="is-a"]
+	"wine#.WineFlavor" -> "wine#.WineTaste" [label="is-a"]
+	"wine#.SweetRiesling" -> "wine#.DessertWine" [label="is-a"]
+	"wine#.Sauternes" -> "wine#.LateHarvest" [label="is-a"]
+	"wine#.Port" -> "wine#.RedWine" [label="is-a"]
+	"wine#.Chianti" -> "wine#.ItalianWine" [label="is-a"]
+}
