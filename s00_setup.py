@@ -97,10 +97,10 @@ G=build_Digraph_nx(nos,arestas)
 print("Medida selecionada: "+ str(metrica_dic[metrica]))
 
 if metrica_dic[metrica] == 'Sim_path':
-    m=matriz_sim_path(G,nos,base)
+    m=matriz_sim_path(H,nos,base)
 
 elif metrica_dic[metrica] == 'Sim_wup':
-    m=matriz_sim_wup(G, nos, base)
+    m=matriz_sim_wup(H, nos, base)
 
 else:
     print("sem medida")

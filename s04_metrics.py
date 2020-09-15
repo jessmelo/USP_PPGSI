@@ -14,7 +14,7 @@ def sim_spath(H,i,j):
     try:
         res=1/shortest_path_length(H,i,j)
     except:
-        res=1
+        res=0
     return(res)
 
 #Métrica de similaridade Sim_wup
@@ -51,13 +51,13 @@ def sim_lch(G, node1, node2):
 '''
 
 #Matriz de similaridade
-def matriz_sim_path(G,nos,base):
+def matriz_sim_path(H,nos,base):
     #u=metrica
     #n = len(nos)
     m = []
     for i in nos:
         for j in nos:
-            res = sim_spath(G, i, j)
+            res = sim_spath(H, i, j)
             #print(i, j, round(res, 2))
             m.append([i, j, round(res, 2)])
 
@@ -70,11 +70,11 @@ def matriz_sim_path(G,nos,base):
     return(m)
 
 #Matriz de similaridade
-def matriz_sim_wup(G, nos, base ):
+def matriz_sim_wup(H, nos, base ):
     m = []
     for i in nos:
         for j in nos:
-            res = sim_wup(G, i, j)
+            res = sim_wup(H, i, j)
 
             #print(i, j, round(res, 2))
             m.append([i, j, round(res, 2)])
