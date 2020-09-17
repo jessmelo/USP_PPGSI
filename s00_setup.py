@@ -23,7 +23,6 @@ print(arquivo)
 if arquivo == '1':
     importa_OWL_RDF()
 
-
 print('---------------------------------------------------------------------')
 print('* Ontologias disponíveis:')
 
@@ -93,6 +92,8 @@ print('')
 
 H=build_graph_nx(nos,arestas)
 G=build_Digraph_nx(nos,arestas)
+
+G = add_root_node(G)
 
 print("Medida selecionada: "+ str(metrica_dic[metrica]))
 

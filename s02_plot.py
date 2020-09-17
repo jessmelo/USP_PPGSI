@@ -17,7 +17,7 @@ def draw_Digraph(nos,arestas,base):
     g.attr('node', shape='box', style='rounded,filled', fillcolor='lightgray')
 
     for i in nos:
-        g.node(i)
+        g.node(i)            
 
     for i in arestas:
         #print(i[0],i[1],i[2])
@@ -27,3 +27,11 @@ def draw_Digraph(nos,arestas,base):
     print('Plot 01 - ok!')
     return g
 
+def add_root_node(G):
+    grafo = G
+    for i in list(grafo.nodes): 
+        ancestors = list(ancestors(G, i))
+        if(ancestors is null):
+            G.edge(node, "Thing", label="is-a")
+    
+    return G

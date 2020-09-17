@@ -34,7 +34,7 @@ def sim_wup(Graph, node1, node2):
     sim_wup = (2 * depth_lcs) / (depth_node1 + depth_node2)
     return(sim_wup)
 
-'''
+
 #Métrica de similaridade Sim_lch
 def sim_lch(G, node1, node2):
     # medindo o menor caminho do grafo nao direcionado
