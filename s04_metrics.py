@@ -14,7 +14,7 @@ def sim_spath(H,i,j):
     try:
         res=1/shortest_path_length(H,i,j)
     except:
-        res=0
+        res=1.0
     return(res)
 
 #Métrica de similaridade Sim_wup
