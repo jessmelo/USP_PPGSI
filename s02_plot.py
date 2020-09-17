@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.transforms as mtransforms
 from matplotlib.transforms import Bbox
 from graphviz import Digraph
-
-
+from networkx.drawing.nx_pydot import graphviz_layout
 
 # Plot de grafo
 def draw_Digraph(nos,arestas,base):
@@ -31,7 +30,13 @@ def add_root_node(G):
     grafo = G
     for i in list(grafo.nodes): 
         ancestors = list(ancestors(G, i))
-        if(ancestors is null):
-            G.edge(node, "Thing", label="is-a")
+        if not ancestors:
+            G.edge(i, "Thing", label="is-a")
     
     return G
+
+def draw_tree(G, label):
+    plt.title("Ontology")
+    pos=graphviz_layout(G, prog='dot')
+    nx.draw(G, pos, with_labels=label, arrows=False)
+    plt.show()

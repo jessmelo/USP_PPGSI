@@ -94,6 +94,7 @@ H=build_graph_nx(nos,arestas)
 G=build_Digraph_nx(nos,arestas)
 
 G = add_root_node(G)
+draw_tree(G)
 
 print("Medida selecionada: "+ str(metrica_dic[metrica]))
 
