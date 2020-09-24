@@ -3,8 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.transforms as mtransforms
 from matplotlib.transforms import Bbox
 from graphviz import Digraph
-
-
+from networkx.drawing.nx_pydot import graphviz_layout
 
 # Plot de grafo
 def draw_Digraph(nos,arestas,base):
@@ -17,7 +16,7 @@ def draw_Digraph(nos,arestas,base):
     g.attr('node', shape='box', style='rounded,filled', fillcolor='lightgray')
 
     for i in nos:
-        g.node(i)            
+        g.node(i)
 
     for i in arestas:
         #print(i[0],i[1],i[2])
@@ -30,8 +29,14 @@ def draw_Digraph(nos,arestas,base):
 def add_root_node(G):
     grafo = G
     for i in list(grafo.nodes): 
-        ancestors = list(ancestors(G, i))
-        if(ancestors is null):
-            G.edge(node, "Thing", label="is-a")
+        ancestors = list(nx.ancestors(G, i))
+        if not ancestors:
+            grafo.add_edge(i, "Thing", label="is-a")
     
-    return G
+    return grafo
+
+def draw_tree(G, label):
+    plt.title("Ontology")
+    pos=graphviz_layout(G, prog='dot')
+    nx.draw(G, pos, with_labels=label, arrows=False)
+    plt.show()
