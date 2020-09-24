@@ -23,7 +23,6 @@ print(arquivo)
 if arquivo == '1':
     importa_OWL_RDF()
 
-
 print('---------------------------------------------------------------------')
 print('* Ontologias disponíveis:')
 
@@ -81,7 +80,6 @@ print('* Escolha: '+str(grafo_imagem))
 if grafo_imagem == '1':
     draw_grafo=draw_Digraph(nos,arestas,base)
 
-
 print('')
 print('#####################################################################')
 print('## Calculo da similaridade ##########################################')
@@ -91,8 +89,6 @@ print('')
 H=build_graph_nx(nos,arestas)
 G=build_Digraph_nx(nos,arestas)
 
-draw_tree(G, True)
-
 print("Medida selecionada: "+ str(metrica_dic[metrica]))
 
 if metrica_dic[metrica] == 'Sim_path':
@@ -100,6 +96,9 @@ if metrica_dic[metrica] == 'Sim_path':
 
 elif metrica_dic[metrica] == 'Sim_wup':
     m=matriz_sim_wup(G, nos, base)
+
+elif metrica_dic[metrica] == 'Sim_lch':
+    m=matriz_sim_lch(G, nos, base)
 
 else:
     print("sem medida")

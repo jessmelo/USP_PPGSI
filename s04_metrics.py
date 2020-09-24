@@ -2,6 +2,7 @@ import networkx as nx
 import pandas as pd
 import seaborn as sns
 import matplotlib as plt
+import math
 
 ###################################################################
 # Apresenta a menor distância entre os nós
@@ -39,21 +40,19 @@ def sim_wup(G, i, j):
 
     return(sim_wup)
 
-'''
 #Métrica de similaridade Sim_lch
-def sim_lch(G, node1, node2):
+def sim_lch(G, i, j):
     # medindo o menor caminho do grafo nao direcionado
     G_undirected = G.to_undirected()
-    shortest_path = nx.shortest_path_length(G_undirected, node1, node2)
+    shortest_path = sim_spath(G_undirected, i, j)
 
     # calcula profundidade do grafo
     Depth_ontology = nx.dag_longest_path_length(G)
 
     # formula:
-    sim_lch = -math.log( shortest_path / (2 * Depth_ontology))
-
+    lch = shortest_path / (2 * Depth_ontology)
+    sim_lch = -math.log(lch)
     return sim_lch
-'''
 
 #Matriz de similaridade
 def matriz_sim_path(H,nos,base):
@@ -90,5 +89,24 @@ def matriz_sim_wup(G, nos, base):
     m = pd.DataFrame(m)
     m.to_csv('./data/out/'+'out_matrix_sim_wup_'+str(base), index=True)
     print('Matriz de similaridades: '+'./data/out/' + 'out_matrix_sim_wup_' + str(base))
+
+    return(m)
+    
+#Matriz de similaridade
+def matriz_sim_lch(G, nos, base):
+    m = []
+    for i in nos:
+        for j in nos:
+            res = sim_lch(G, i, j)
+
+            #print(i, j, round(res, 2))
+            m.append([i, j, round(res, 2)])
+
+    m = pd.DataFrame(m)
+    m = m.pivot_table(2, 0, 1, fill_value=0)
+
+    m = pd.DataFrame(m)
+    m.to_csv('./data/out/'+'out_matrix_sim_lch_'+str(base), index=True)
+    print('Matriz de similaridades: '+'./data/out/' + 'out_matrix_sim_lch_' + str(base))
 
     return(m)

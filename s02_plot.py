@@ -32,11 +32,10 @@ def add_root_node(G):
         ancestors = list(nx.ancestors(G, i))
         if not ancestors:
             grafo.add_edge(i, "Thing", label="is-a")
-    
     return grafo
 
-def draw_tree(G, label):
-    plt.title("Ontology")
-    pos=graphviz_layout(G, prog='dot')
-    nx.draw(G, pos, with_labels=label, arrows=False)
-    plt.show()
+# def draw_tree(G, label):
+#     plt.title("Ontology")
+#     pos=graphviz_layout(G, prog='dot')
+#     nx.draw(G, pos, with_labels=label, arrows=False)
+#     plt.show()
