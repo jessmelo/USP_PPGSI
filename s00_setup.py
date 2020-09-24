@@ -23,10 +23,14 @@ print(arquivo)
 if arquivo == '1':
     importa_OWL_RDF()
 
+
 print('---------------------------------------------------------------------')
 print('* Ontologias disponíveis:')
 
 dic=criar_menu_arq()
+
+ontologia=input('Qual arquivo/ontologia você deseja utilizar?')
+print(dic[int(ontologia)])
 
 print('---------------------------------------------------------------------')
 print('* Medidas de similaridade disponíveis: !!apenas sim_path até agora!!')
@@ -35,12 +39,6 @@ print('2 - Sim_wup  :  Wu e Palmer')
 print('3 - Sim_lch  :  Leacock e Chodorow')
 print('4 - Sim_nam  :  Nguyen e Al-Mubaid')
 print('---------------------------------------------------------------------')
-
-print('* Seleção de ontologia e métrica de similaridade:')
-print('')
-
-ontologia=input('Qual arquivo/ontologia você deseja utilizar?')
-print(dic[int(ontologia)])
 
 metrica = input('Escolha uma medida (utilize os números):')
 
@@ -93,12 +91,12 @@ print('')
 H=build_graph_nx(nos,arestas)
 G=build_Digraph_nx(nos,arestas)
 
-G = add_root_node(G)
+draw_tree(G, True)
 
 print("Medida selecionada: "+ str(metrica_dic[metrica]))
 
 if metrica_dic[metrica] == 'Sim_path':
-    m=matriz_sim_path(G,nos,base)
+    m=matriz_sim_path(H,nos,base)
 
 elif metrica_dic[metrica] == 'Sim_wup':
     m=matriz_sim_wup(G, nos, base)
