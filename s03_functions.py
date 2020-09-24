@@ -2,6 +2,7 @@ import networkx as nx
 import pandas as pd
 import seaborn as sns
 import matplotlib as plt
+import numpy as np
 
 ###################################################################
 # Retorna os nós do grafo
@@ -56,5 +57,11 @@ def build_graph_nx(nos,arestas):
 def build_Digraph_nx(nos,arestas):
     G=nx.DiGraph()
     G.add_nodes_from(nos)
-    G.add_weighted_edges_from(arestas)
+    arestas = np.array(arestas)
+    rows = arestas.shape[0]
+    cols = arestas.shape[1]
+    for x in range(0, rows):
+        G.add_edge(arestas[x][0], arestas[x][1])
+   
+    # G.add_weighted_edges_from(arestas)
     return G
