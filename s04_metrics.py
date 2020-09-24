@@ -51,10 +51,13 @@ def sim_lch(G, i, j):
 
     # formula:
     lch = shortest_path / (2 * Depth_ontology)
-    sim_lch = -math.log(lch)
+    if(lch == 0):
+        sim_lch = 0
+    else:
+        sim_lch = -math.log(lch)
     return sim_lch
 
-#Matriz de similaridade
+#Matriz de similaridade sim_path
 def matriz_sim_path(H,nos,base):
     #u=metrica
     #n = len(nos)
@@ -73,7 +76,7 @@ def matriz_sim_path(H,nos,base):
     print('Matriz de similaridades: '+'./data/out/' + 'out_matrix_sim_path_' + str(base))
     return(m)
 
-#Matriz de similaridade
+#Matriz de similaridade wup
 def matriz_sim_wup(G, nos, base):
     m = []
     for i in nos:
@@ -92,7 +95,7 @@ def matriz_sim_wup(G, nos, base):
 
     return(m)
     
-#Matriz de similaridade
+#Matriz de similaridade lch
 def matriz_sim_lch(G, nos, base):
     m = []
     for i in nos:
