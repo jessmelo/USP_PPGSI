@@ -36,7 +36,8 @@ print('* Medidas de similaridade disponíveis: !!apenas sim_path até agora!!')
 print('1 - Sim_path :  Caminho mínimo')
 print('2 - Sim_wup  :  Wu e Palmer')
 print('3 - Sim_lch  :  Leacock e Chodorow')
-print('4 - Sim_nam  :  Nguyen e Al-Mubaid')
+print('4 - Sim_resnik : Resnik')
+print('5 - Sim_lin  :  Lin')
 print('---------------------------------------------------------------------')
 
 metrica = input('Escolha uma medida (utilize os números):')
@@ -45,6 +46,8 @@ metrica_dic={
     '1':'Sim_path',
     '2':'Sim_wup',
     '3':'Sim_lch',
+    '4':'Sim_resnik',
+    '5':'Sim_lin'
 }
 
 print('')
@@ -99,6 +102,12 @@ elif metrica_dic[metrica] == 'Sim_wup':
 
 elif metrica_dic[metrica] == 'Sim_lch':
     m=matriz_sim_lch(G, nos, base)
+
+elif metrica_dic[metrica] == 'Sim_resnik':
+    m=matriz_sim_resnik(G, nos, base)
+
+elif metrica_dic[metrica] == 'Sim_lin':
+    m=matriz_sim_lin(G, nos, base)
 
 else:
     print("sem medida")
