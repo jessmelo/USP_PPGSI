@@ -7,15 +7,15 @@ import math
 ###################################################################
 # Apresenta a menor distância entre os nós
 def shortest_path_length(H,i,j):
-    short_parth=nx.shortest_path_length(H,source=i,target=j)
+    try:
+        short_parth=nx.shortest_path_length(H,source=i,target=j)
+    except:
+        short_parth = 1.0
     return(short_parth)
 
 #Métrica de similaridade Spath
 def sim_spath(H,i,j):
-    try:
-        res=1/shortest_path_length(H,i,j)
-    except:
-        res=1.0
+    res=1/shortest_path_length(H,i,j)
     return(res)
 
 #Métrica de similaridade Sim_wup
@@ -29,9 +29,9 @@ def sim_wup(G, i, j):
 
     H = G.to_undirected()
     # calculando a profundidade dos nos =  menor caminho do no até a raiz
-    depth_lcs = sim_spath(H, root, LCS)
-    depth_node1 = sim_spath(H, root, i)
-    depth_node2 = sim_spath(H, root, j)
+    depth_lcs = shortest_path_length(H, root, LCS)
+    depth_node1 = shortest_path_length(H, root, i)
+    depth_node2 = shortest_path_length(H, root, j)
 
     try:
         sim_wup = (2 * depth_lcs) / (depth_node1 + depth_node2)
@@ -44,7 +44,7 @@ def sim_wup(G, i, j):
 def sim_lch(G, i, j):
     # medindo o menor caminho do grafo nao direcionado
     G_undirected = G.to_undirected()
-    shortest_path = sim_spath(G_undirected, i, j)
+    shortest_path = shortest_path_length(G_undirected, i, j)
 
     # calcula profundidade do grafo
     Depth_ontology = nx.dag_longest_path_length(G)
@@ -52,7 +52,7 @@ def sim_lch(G, i, j):
     # formula:
     lch = shortest_path / (2 * Depth_ontology)
     if(lch == 0):
-        sim_lch = 0
+        sim_lch = 1.0
     else:
         sim_lch = -math.log(lch)
     return sim_lch
@@ -167,7 +167,7 @@ def matriz_sim_resnik(G, nos, base):
 
     m = pd.DataFrame(m)
     m.to_csv('./data/out/'+'out_matrix_sim_resnik_'+str(base), index=True)
-    print('Matriz de similaridades: '+'./data/out/' + 'out_matriz_sim_res' + str(base))
+    print('Matriz de similaridades: '+'./data/out/' + 'out_matriz_sim_res_' + str(base))
 
     return(m)
     
@@ -186,6 +186,6 @@ def matriz_sim_lin(G, nos, base):
 
     m = pd.DataFrame(m)
     m.to_csv('./data/out/'+'out_matrix_sim_lch_'+str(base), index=True)
-    print('Matriz de similaridades: '+'./data/out/' + 'out_matriz_sim_lin' + str(base))
+    print('Matriz de similaridades: '+'./data/out/' + 'out_matriz_sim_lin_' + str(base))
 
     return(m)
