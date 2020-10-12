@@ -98,7 +98,7 @@ if metrica_dic[metrica] == 'Sim_path':
     m=matriz_sim_path(H,nos,base)
 
 elif metrica_dic[metrica] == 'Sim_wup':
-    m=matriz_sim_wup(G, nos, base)
+    m=matriz_sim_wup(H, nos, base)
 
 elif metrica_dic[metrica] == 'Sim_lch':
     m=matriz_sim_lch(G, nos, base)

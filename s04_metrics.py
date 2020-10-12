@@ -15,7 +15,14 @@ def shortest_path_length(H,i,j):
 
 #Métrica de similaridade Spath
 def sim_spath(H,i,j):
+#<<<<<<< jess-branch
     res=1/shortest_path_length(H,i,j)
+#=======
+    try:
+        res=1/shortest_path_length(H,i,j)
+    except:
+        res=1.0
+#>>>>>>> master
     return(res)
 
 #Métrica de similaridade Sim_wup
@@ -57,6 +64,7 @@ def sim_lch(G, i, j):
         sim_lch = -math.log(lch)
     return sim_lch
 
+#<<<<<<< jess-branch
 def information_content(G, node):
     # calcula information content de um nó
     descendants = nx.descendants(G, node)
@@ -96,6 +104,9 @@ def sim_lin(G, node1, node2):
     return sim_lin
 
 #Matriz de similaridade sim_path
+#=======
+#Matriz de similaridade
+#>>>>>>> master
 def matriz_sim_path(H,nos,base):
     #u=metrica
     #n = len(nos)
@@ -114,12 +125,17 @@ def matriz_sim_path(H,nos,base):
     print('Matriz de similaridades: '+'./data/out/' + 'out_matrix_sim_path_' + str(base))
     return(m)
 
+#<<<<<<< jess-branch
 #Matriz de similaridade wup
 def matriz_sim_wup(G, nos, base):
+#=======
+#Matriz de similaridade
+def matriz_sim_wup(H, nos, base ):
+#>>>>>>> master
     m = []
     for i in nos:
         for j in nos:
-            res = sim_wup(G, i, j)
+            res = sim_wup(H, i, j)
 
             #print(i, j, round(res, 2))
             m.append([i, j, round(res, 2)])
