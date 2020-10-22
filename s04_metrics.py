@@ -13,20 +13,16 @@ def shortest_path_length(H,i,j):
         short_parth = 1.0
     return(short_parth)
 
-#Métrica de similaridade Spath
+#Métrica de similaridade Shortest Path
 def sim_spath(H,i,j):
-#<<<<<<< jess-branch
     res=1/shortest_path_length(H,i,j)
-#=======
     try:
         res=1/shortest_path_length(H,i,j)
     except:
         res=1.0
-#>>>>>>> master
     return(res)
 
-#Métrica de similaridade Sim_wup
-
+#Métrica de similaridade Wu and Palmer
 def sim_wup(G, i, j):
     # definindo o no raiz da arvore
     root = "owl.Thing"
@@ -47,7 +43,7 @@ def sim_wup(G, i, j):
 
     return(sim_wup)
 
-#Métrica de similaridade Sim_lch
+#Métrica de similaridade Leacock and Chodorow
 def sim_lch(G, i, j):
     # medindo o menor caminho do grafo nao direcionado
     G_undirected = G.to_undirected()
@@ -64,7 +60,7 @@ def sim_lch(G, i, j):
         sim_lch = -math.log(lch)
     return sim_lch
 
-#<<<<<<< jess-branch
+# Cálculo do Information Content de um nó
 def information_content(G, node):
     # calcula information content de um nó
     descendants = nx.descendants(G, node)
@@ -98,15 +94,19 @@ def sim_resnik(G, node1, node2):
         sim_res = information_content(G, LCS)
     return sim_res
 
+#Métrica de Lin
 def sim_lin(G, node1, node2):
     LCS = nx.lowest_common_ancestor(G, node1, node2)
     sim_lin = (2.0 * information_content(G, LCS)) / (information_content(G, node1) + information_content(G, node2))
     return sim_lin
 
+#Métrica de Jiang and Conrath 
+def sim_jcn(G, node1, node2):
+    LCS = nx.lowest_common_ancestor(G, node1, node2)
+    sim_jcn = 1 / (information_content(G, node1) + information_content(G, node2) - information_content(G, LCS))
+    return sim_jcn
+
 #Matriz de similaridade sim_path
-#=======
-#Matriz de similaridade
-#>>>>>>> master
 def matriz_sim_path(H,nos,base):
     #u=metrica
     #n = len(nos)
@@ -125,17 +125,12 @@ def matriz_sim_path(H,nos,base):
     print('Matriz de similaridades: '+'./data/out/' + 'out_matrix_sim_path_' + str(base))
     return(m)
 
-#<<<<<<< jess-branch
-#Matriz de similaridade wup
+#Matriz de similaridade sim_wup
 def matriz_sim_wup(G, nos, base):
-#=======
-#Matriz de similaridade
-def matriz_sim_wup(H, nos, base ):
-#>>>>>>> master
     m = []
     for i in nos:
         for j in nos:
-            res = sim_wup(H, i, j)
+            res = sim_wup(G, i, j)
 
             #print(i, j, round(res, 2))
             m.append([i, j, round(res, 2)])
@@ -146,10 +141,9 @@ def matriz_sim_wup(H, nos, base ):
     m = pd.DataFrame(m)
     m.to_csv('./data/out/'+'out_matrix_sim_wup_'+str(base), index=True)
     print('Matriz de similaridades: '+'./data/out/' + 'out_matrix_sim_wup_' + str(base))
-
     return(m)
     
-#Matriz de similaridade lch
+#Matriz de similaridade sim_lch
 def matriz_sim_lch(G, nos, base):
     m = []
     for i in nos:
@@ -183,7 +177,7 @@ def matriz_sim_resnik(G, nos, base):
 
     m = pd.DataFrame(m)
     m.to_csv('./data/out/'+'out_matrix_sim_resnik_'+str(base), index=True)
-    print('Matriz de similaridades: '+'./data/out/' + 'out_matriz_sim_res_' + str(base))
+    print('Matriz de similaridades: '+'./data/out/' + 'out_matriz_sim_resnik_' + str(base))
 
     return(m)
     
@@ -201,7 +195,26 @@ def matriz_sim_lin(G, nos, base):
     m = m.pivot_table(2, 0, 1, fill_value=0)
 
     m = pd.DataFrame(m)
-    m.to_csv('./data/out/'+'out_matrix_sim_lch_'+str(base), index=True)
+    m.to_csv('./data/out/'+'out_matrix_sim_lin_'+str(base), index=True)
     print('Matriz de similaridades: '+'./data/out/' + 'out_matriz_sim_lin_' + str(base))
+
+    return(m)
+    
+#Matriz de similaridade Jiang and Conrath 
+def matriz_sim_jcn(G, nos, base):
+    m = []
+    for i in nos:
+        for j in nos:
+            res = sim_jcn(G, i, j)
+
+            #print(i, j, round(res, 2))
+            m.append([i, j, round(res, 2)])
+
+    m = pd.DataFrame(m)
+    m = m.pivot_table(2, 0, 1, fill_value=0)
+
+    m = pd.DataFrame(m)
+    m.to_csv('./data/out/'+'out_matrix_sim_jcn_'+str(base), index=True)
+    print('Matriz de similaridades: '+'./data/out/' + 'out_matriz_sim_jcn_' + str(base))
 
     return(m)
