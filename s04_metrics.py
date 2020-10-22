@@ -107,7 +107,7 @@ def sim_jcn(G, node1, node2):
     return sim_jcn
 
 #Matriz de similaridade sim_path
-def matriz_sim_path(H,nos,base):
+def matriz_sim_spath(H,nos,base):
     #u=metrica
     #n = len(nos)
     m = []
@@ -121,8 +121,8 @@ def matriz_sim_path(H,nos,base):
     m = m.pivot_table(2, 0, 1, fill_value=0)
 
     m = pd.DataFrame(m)
-    m.to_csv('./data/out/'+'out_matrix_sim_path_'+str(base), index=True)
-    print('Matriz de similaridades: '+'./data/out/' + 'out_matrix_sim_path_' + str(base))
+    m.to_csv('./data/out/'+'out_matrix_sim_spath_'+str(base), index=True)
+    print('Matriz de similaridades: '+'./data/out/' + 'out_matrix_sim_spath_' + str(base))
     return(m)
 
 #Matriz de similaridade sim_wup
