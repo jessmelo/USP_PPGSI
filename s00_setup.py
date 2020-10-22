@@ -38,6 +38,7 @@ print('2 - Sim_wup  :  Wu e Palmer')
 print('3 - Sim_lch  :  Leacock e Chodorow')
 print('4 - Sim_resnik : Resnik')
 print('5 - Sim_lin  :  Lin')
+print('6 - Sim_jcn  :  Jiang and Conrath')
 print('---------------------------------------------------------------------')
 
 metrica = input('Escolha uma medida (utilize os números):')
@@ -47,7 +48,8 @@ metrica_dic={
     '2':'Sim_wup',
     '3':'Sim_lch',
     '4':'Sim_resnik',
-    '5':'Sim_lin'
+    '5':'Sim_lin',
+    '6':'Sim_jcn'
 }
 
 print('')
@@ -95,10 +97,10 @@ G=build_Digraph_nx(nos,arestas)
 print("Medida selecionada: "+ str(metrica_dic[metrica]))
 
 if metrica_dic[metrica] == 'Sim_path':
-    m=matriz_sim_path(H,nos,base)
+    m=matriz_sim_spath(H,nos,base)
 
 elif metrica_dic[metrica] == 'Sim_wup':
-    m=matriz_sim_wup(H, nos, base)
+    m=matriz_sim_wup(G, nos, base)
 
 elif metrica_dic[metrica] == 'Sim_lch':
     m=matriz_sim_lch(G, nos, base)
@@ -108,6 +110,9 @@ elif metrica_dic[metrica] == 'Sim_resnik':
 
 elif metrica_dic[metrica] == 'Sim_lin':
     m=matriz_sim_lin(G, nos, base)
+
+elif metrica_dic[metrica] == 'Sim_jcn':
+    m=matriz_sim_jcn(G, nos, base)
 
 else:
     print("sem medida")
