@@ -78,6 +78,7 @@ def information_content(G, node):
     max_leaves = len(leaf_nodes)
 
     calc = (num_descendants_leaves / num_subsumers + 1) / (max_leaves + 1)
+    # -math.log base 10
     ic = -math.log(calc)
     return ic
     
